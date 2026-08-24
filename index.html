@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Sure Games — Today's Slips</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+
+<div class="tg-banner">
+  <div class="tg-logo"><img src="assets/logo-telegram.png" alt="Soccer Football News 24/7 logo"></div>
+  <div class="tg-text">
+    <div class="tg-title">Soccer Football News 24/7</div>
+    <div class="tg-sub">Daily football news, transfers, results &amp; highlights</div>
+  </div>
+  <a class="tg-join" href="https://t.me/soccerfootballnews247" target="_blank" rel="noopener">
+    <span class="txt-full">Join Channel</span><span class="txt-short">Join</span>
+  </a>
+</div>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-logo"><img src="assets/logo-dsg.png" alt="Daily Sure Games logo"></div>
+    <span class="brand-name">DAILY&nbsp;SURE&nbsp;GAMES</span>
+  </div>
+  <div class="updated" id="updated-stamp">Updating…</div>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow" id="today-date">TODAY'S FIXTURES</p>
+    <h1>Five slips.<br>Every risk level.</h1>
+    <p class="hero-sub">Built from live odds and cross-checked form, injuries and stats. Pick your own risk, or follow the full board.</p>
+    <div class="stat-row" id="stat-row"></div>
+  </section>
+
+  <!-- Proof first: yesterday's results build trust before asking for attention on today's picks -->
+  <section class="section" id="yesterday-section">
+    <h2 class="section-title">Yesterday's Results</h2>
+    <div id="yesterday-wrap" class="yesterday-wrap"></div>
+  </section>
+
+  <section class="section" id="slips-section">
+    <h2 class="section-title">Today's Slips</h2>
+    <div class="ticket-grid" id="ticket-grid"></div>
+  </section>
+
+  <section class="section" id="track-section">
+    <h2 class="section-title">Slip Track Record</h2>
+    <p class="section-sub">How each slip type has performed over time, day by day.</p>
+    <div class="track-wrap">
+      <table class="track">
+        <thead><tr><th>Slip</th><th>Recent Form</th><th>Win Rate</th></tr></thead>
+        <tbody id="track-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="board-section">
+    <h2 class="section-title">Full Board — Build Your Own</h2>
+    <p class="section-sub">Every match analyzed today. Mix your own combo from the full list.</p>
+    <div class="board-wrap">
+      <table class="board">
+        <thead><tr><th>Match</th><th>Comp.</th><th>Kickoff</th><th>Market</th><th>Pick</th><th>Odds</th></tr></thead>
+        <tbody id="board-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="history-section">
+    <h2 class="section-title">Result Archive</h2>
+    <div id="history-wrap" class="history-wrap"></div>
+  </section>
+
+  <footer class="disclaimer">
+    <p>These are probability-based estimates from public data, not guaranteed outcomes. No prediction system can guarantee a win. Stake only what you can afford to lose, and avoid increasing stakes to chase previous losses. 18+ only.</p>
+    </div>
+  </footer>
+</main>
+
+
+<script src="assets/app.js"></script>
+</body>
+</html>
