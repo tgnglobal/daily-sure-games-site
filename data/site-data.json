@@ -1,380 +1,432 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-08-23T21:00:00+01:00"
+    "updated": "2026-08-25T19:02:32+01:00"
   },
   "today": {
-    "date": "2026-08-23",
+    "date": "2026-08-25",
     "slips": [
       {
-        "id": "rollover",
+        "id": "roll-01",
         "name": "7-Day Rollover",
-        "combined_odds": "1.70",
+        "combined_odds": "1.52",
         "status": "pending",
         "legs": [
           {
-            "match": "Atlanta United vs Sporting Kansas City",
-            "competition": "MLS",
-            "kickoff": "Mon 00:00 WAT",
-            "market": "1X2",
-            "pick": "Atlanta United Win",
-            "odds": "1.70",
-            "kickoff_iso": "2026-08-24T00:00:00+01:00"
+            "match": "Benfica vs Dynamo Kyiv",
+            "competition": "UEFA Champions League Qualification",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-08-25T20:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.18"
+          },
+          {
+            "match": "Red Star Belgrade vs Maccabi Haifa",
+            "competition": "UEFA Champions League Qualification",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-08-25T20:00:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.29"
           }
         ]
       },
       {
-        "id": "boost",
+        "id": "boost-02",
         "name": "Boost Slip",
-        "combined_odds": "2.10",
+        "combined_odds": "2.05",
         "status": "pending",
         "legs": [
           {
-            "match": "Atlético San Luis vs Pachuca",
-            "competition": "Liga MX",
-            "kickoff": "Mon 00:00 WAT",
-            "market": "1X2",
-            "pick": "Pachuca Win",
-            "odds": "2.10",
-            "kickoff_iso": "2026-08-24T00:00:00+01:00"
+            "match": "Viktoria Plzen vs Qarabag FK",
+            "competition": "UEFA Champions League Qualification",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-08-25T20:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.32"
+          },
+          {
+            "match": "Bolton Wanderers vs Aston Villa",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.25"
+          },
+          {
+            "match": "Fleetwood Town vs Everton",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Double Chance",
+            "pick": "X2",
+            "odds": "1.24"
           }
         ]
       },
       {
-        "id": "bod",
+        "id": "botd-03",
         "name": "Bet of the Day",
-        "combined_odds": "4.16",
+        "combined_odds": "3.12",
         "status": "pending",
         "legs": [
           {
-            "match": "Chapecoense vs São Paulo",
-            "competition": "Brasileirão",
-            "kickoff": "22:30 WAT",
-            "market": "1X2",
-            "pick": "São Paulo Win",
-            "odds": "2.38",
-            "kickoff_iso": "2026-08-23T22:30:00+01:00"
+            "match": "Stockport County vs Leicester City",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Team Total Goals",
+            "pick": "Leicester City Over 1.5 Goals",
+            "odds": "1.58"
           },
           {
-            "match": "Coritiba vs Corinthians",
-            "competition": "Brasileirão",
-            "kickoff": "23:30 WAT",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - No",
-            "odds": "1.75",
-            "kickoff_iso": "2026-08-23T23:30:00+01:00"
+            "match": "Wolverhampton Wanderers vs Preston North End",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.20"
+          },
+          {
+            "match": "Watford vs Milton Keynes Dons",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.22"
+          },
+          {
+            "match": "Grimsby Town vs Nottingham Forest",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.35"
           }
         ]
       },
       {
-        "id": "power5",
+        "id": "power-04",
         "name": "Power 5",
-        "combined_odds": "8.51",
+        "combined_odds": "5.21",
         "status": "pending",
         "legs": [
           {
-            "match": "Santos vs Mirassol",
-            "competition": "Brasileirão",
-            "kickoff": "22:30 WAT",
-            "market": "1X2",
-            "pick": "Santos Win",
-            "odds": "1.89",
-            "kickoff_iso": "2026-08-23T22:30:00+01:00"
+            "match": "Norwich City vs AFC Bournemouth",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Both Teams to Score",
+            "pick": "BTTS Yes",
+            "odds": "1.74"
           },
           {
-            "match": "Coritiba vs Corinthians",
-            "competition": "Brasileirão",
-            "kickoff": "23:30 WAT",
-            "market": "1X2",
-            "pick": "Corinthians Win",
-            "odds": "2.53",
-            "kickoff_iso": "2026-08-23T23:30:00+01:00"
+            "match": "Sheffield Wednesday vs Rochdale",
+            "competition": "EFL Cup",
+            "kickoff": "19:30 WAT",
+            "kickoff_iso": "2026-08-25T19:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.20"
           },
           {
-            "match": "Atlético San Luis vs Pachuca",
-            "competition": "Liga MX",
-            "kickoff": "Mon 00:00 WAT",
-            "market": "Over/Under",
-            "pick": "Over 2.5 Goals",
-            "odds": "1.78",
-            "kickoff_iso": "2026-08-24T00:00:00+01:00"
+            "match": "Rotherham United vs Morecambe",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Double Chance",
+            "pick": "1X",
+            "odds": "1.21"
+          },
+          {
+            "match": "Walsall vs Charlton Athletic",
+            "competition": "EFL Cup",
+            "kickoff": "19:00 WAT",
+            "kickoff_iso": "2026-08-25T19:00:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Under 3.5 Goals",
+            "odds": "1.34"
+          },
+          {
+            "match": "Barrow vs Lincoln City",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.54"
           }
         ]
       },
       {
-        "id": "moonshot",
+        "id": "moon-05",
         "name": "Moonshot",
-        "combined_odds": "15.10",
+        "combined_odds": "10.42",
         "status": "pending",
         "legs": [
           {
-            "match": "Atlanta United vs Sporting Kansas City",
-            "competition": "MLS",
-            "kickoff": "Mon 00:00 WAT",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.52",
-            "kickoff_iso": "2026-08-24T00:00:00+01:00"
+            "match": "Bradford City vs Blackburn Rovers",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Both Teams to Score",
+            "pick": "BTTS Yes",
+            "odds": "1.82"
           },
           {
-            "match": "Atlético San Luis vs Pachuca",
-            "competition": "Liga MX",
-            "kickoff": "Mon 00:00 WAT",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.77",
-            "kickoff_iso": "2026-08-24T00:00:00+01:00"
+            "match": "Derby County vs West Bromwich Albion",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Under 3.5 Goals",
+            "odds": "1.32"
           },
           {
-            "match": "Santos vs Mirassol",
-            "competition": "Brasileirão",
-            "kickoff": "22:30 WAT",
-            "market": "Over/Under",
-            "pick": "Over 2.5 Goals",
-            "odds": "1.84",
-            "kickoff_iso": "2026-08-23T22:30:00+01:00"
+            "match": "Gillingham vs Exeter City",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Double Chance",
+            "pick": "X2",
+            "odds": "1.41"
           },
           {
-            "match": "Racing Club vs Boca Juniors",
-            "competition": "Argentina Primera",
-            "kickoff": "Mon 01:30 WAT",
-            "market": "1X2",
-            "pick": "Draw",
-            "odds": "3.05",
-            "kickoff_iso": "2026-08-24T01:30:00+01:00"
+            "match": "Shrewsbury Town vs Burnley",
+            "competition": "EFL Cup",
+            "kickoff": "19:30 WAT",
+            "kickoff_iso": "2026-08-25T19:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "X2",
+            "odds": "1.25"
+          },
+          {
+            "match": "Stevenage vs Peterborough United",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Both Teams to Score",
+            "pick": "BTTS Yes",
+            "odds": "1.78"
+          },
+          {
+            "match": "Crawley Town vs Fulham",
+            "competition": "EFL Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "market": "Over/Under Goals",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.28"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Santos vs Mirassol",
-        "competition": "Brasileirão",
-        "kickoff": "22:30 WAT",
-        "market": "1X2",
-        "pick": "Santos Win",
-        "odds": "1.89",
-        "kickoff_iso": "2026-08-23T22:30:00+01:00"
+        "match": "Benfica vs Dynamo Kyiv",
+        "competition": "UEFA Champions League Qualification",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-25T20:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.18"
       },
       {
-        "match": "Santos vs Mirassol",
-        "competition": "Brasileirão",
-        "kickoff": "22:30 WAT",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
-        "odds": "1.84",
-        "kickoff_iso": "2026-08-23T22:30:00+01:00"
+        "match": "Red Star Belgrade vs Maccabi Haifa",
+        "competition": "UEFA Champions League Qualification",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-25T20:00:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.29"
       },
       {
-        "match": "Chapecoense vs São Paulo",
-        "competition": "Brasileirão",
-        "kickoff": "22:30 WAT",
-        "market": "1X2",
-        "pick": "São Paulo Win",
-        "odds": "2.38",
-        "kickoff_iso": "2026-08-23T22:30:00+01:00"
+        "match": "Viktoria Plzen vs Qarabag FK",
+        "competition": "UEFA Champions League Qualification",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-25T20:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.32"
       },
       {
-        "match": "Coritiba vs Corinthians",
-        "competition": "Brasileirão",
-        "kickoff": "23:30 WAT",
-        "market": "1X2",
-        "pick": "Corinthians Win",
-        "odds": "2.53",
-        "kickoff_iso": "2026-08-23T23:30:00+01:00"
+        "match": "Bolton Wanderers vs Aston Villa",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.25"
       },
       {
-        "match": "Coritiba vs Corinthians",
-        "competition": "Brasileirão",
-        "kickoff": "23:30 WAT",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - No",
-        "odds": "1.75",
-        "kickoff_iso": "2026-08-23T23:30:00+01:00"
+        "match": "Fleetwood Town vs Everton",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "X2",
+        "odds": "1.24"
       },
       {
-        "match": "Atlanta United vs Sporting Kansas City",
-        "competition": "MLS",
-        "kickoff": "Mon 00:00 WAT",
-        "market": "1X2",
-        "pick": "Atlanta United Win",
-        "odds": "1.70",
-        "kickoff_iso": "2026-08-24T00:00:00+01:00"
+        "match": "Stockport County vs Leicester City",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Team Total Goals",
+        "pick": "Leicester City Over 1.5 Goals",
+        "odds": "1.58"
       },
       {
-        "match": "Atlanta United vs Sporting Kansas City",
-        "competition": "MLS",
-        "kickoff": "Mon 00:00 WAT",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.52",
-        "kickoff_iso": "2026-08-24T00:00:00+01:00"
+        "match": "Wolverhampton Wanderers vs Preston North End",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.20"
       },
       {
-        "match": "Atlético San Luis vs Pachuca",
-        "competition": "Liga MX",
-        "kickoff": "Mon 00:00 WAT",
-        "market": "1X2",
-        "pick": "Pachuca Win",
-        "odds": "2.10",
-        "kickoff_iso": "2026-08-24T00:00:00+01:00"
+        "match": "Watford vs Milton Keynes Dons",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.22"
       },
       {
-        "match": "Atlético San Luis vs Pachuca",
-        "competition": "Liga MX",
-        "kickoff": "Mon 00:00 WAT",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
-        "odds": "1.78",
-        "kickoff_iso": "2026-08-24T00:00:00+01:00"
+        "match": "Grimsby Town vs Nottingham Forest",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.35"
       },
       {
-        "match": "Atlético San Luis vs Pachuca",
-        "competition": "Liga MX",
-        "kickoff": "Mon 00:00 WAT",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.77",
-        "kickoff_iso": "2026-08-24T00:00:00+01:00"
+        "match": "Norwich City vs AFC Bournemouth",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Both Teams to Score",
+        "pick": "BTTS Yes",
+        "odds": "1.74"
       },
       {
-        "match": "Racing Club vs Boca Juniors",
-        "competition": "Argentina Primera",
-        "kickoff": "Mon 01:30 WAT",
-        "market": "1X2",
-        "pick": "Draw",
-        "odds": "3.05",
-        "kickoff_iso": "2026-08-24T01:30:00+01:00"
+        "match": "Sheffield Wednesday vs Rochdale",
+        "competition": "EFL Cup",
+        "kickoff": "19:30 WAT",
+        "kickoff_iso": "2026-08-25T19:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.20"
       },
       {
-        "match": "Racing Club vs Boca Juniors",
-        "competition": "Argentina Primera",
-        "kickoff": "Mon 01:30 WAT",
-        "market": "1X2",
-        "pick": "Racing Club Win",
-        "odds": "2.90",
-        "kickoff_iso": "2026-08-24T01:30:00+01:00"
+        "match": "Rotherham United vs Morecambe",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "1X",
+        "odds": "1.21"
       },
       {
-        "match": "Racing Club vs Boca Juniors",
-        "competition": "Argentina Primera",
-        "kickoff": "Mon 01:30 WAT",
-        "market": "1X2",
-        "pick": "Boca Juniors Win",
-        "odds": "2.55",
-        "kickoff_iso": "2026-08-24T01:30:00+01:00"
+        "match": "Walsall vs Charlton Athletic",
+        "competition": "EFL Cup",
+        "kickoff": "19:00 WAT",
+        "kickoff_iso": "2026-08-25T19:00:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Under 3.5 Goals",
+        "odds": "1.34"
+      },
+      {
+        "match": "Barrow vs Lincoln City",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.54"
+      },
+      {
+        "match": "Bradford City vs Blackburn Rovers",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Both Teams to Score",
+        "pick": "BTTS Yes",
+        "odds": "1.82"
+      },
+      {
+        "match": "Derby County vs West Bromwich Albion",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Under 3.5 Goals",
+        "odds": "1.32"
+      },
+      {
+        "match": "Gillingham vs Exeter City",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "X2",
+        "odds": "1.41"
+      },
+      {
+        "match": "Shrewsbury Town vs Burnley",
+        "competition": "EFL Cup",
+        "kickoff": "19:30 WAT",
+        "kickoff_iso": "2026-08-25T19:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "X2",
+        "odds": "1.25"
+      },
+      {
+        "match": "Stevenage vs Peterborough United",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Both Teams to Score",
+        "pick": "BTTS Yes",
+        "odds": "1.78"
+      },
+      {
+        "match": "Crawley Town vs Fulham",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Over/Under Goals",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.28"
+      },
+      {
+        "match": "Cambridge United vs Southampton",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "X2",
+        "odds": "1.22"
+      },
+      {
+        "match": "Oxford United vs Crystal Palace",
+        "competition": "EFL Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "market": "Double Chance",
+        "pick": "X2",
+        "odds": "1.20"
       }
     ]
   },
-  "history": [
-    {
-      "date": "2026-08-23",
-      "notes": [
-        "7-Day Rollover (WON) — Atlanta United Win: beat Sporting KC 2-1, extending a 3-match win streak; home-form read held up, no correction needed.",
-        "Boost Slip (LOST) — Pachuca Win: San Luis held a disciplined low block at home, finished 1-1; San Luis's home resilience in a historically tight fixture (19 previous meetings) was underweighted vs Pachuca's away reputation.",
-        "Bet of the Day (LOST) — São Paulo Win: lost 0-1 at Chapecoense; their winless run away under Dorival Júnior was underweighted against reputation. BTTS No (Coritiba-Corinthians): Corinthians scored late in a 2-1 loss, so BTTS actually landed Yes — their late set-piece/header threat was underweighted.",
-        "Power 5 (LOST) — Santos Win: only 1-1 vs Mirassol despite a rest advantage; Mirassol's away resilience was underweighted. Corinthians Win: lost 2-1 to Coritiba (same late-goal threat noted above). Over 2.5 (San Luis-Pachuca): finished 1-1 — match tightened defensively rather than staying open.",
-        "Moonshot (LOST) — 3 of 4 legs won (Atlanta BTTS Yes, San Luis-Pachuca BTTS Yes, Racing-Boca Draw); broken by Over 2.5 on Santos-Mirassol (finished 1-1).",
-        "Pattern watch: 3 of 6 matches finished level (San Luis-Pachuca, Santos-Mirassol, Racing-Boca all 1-1) — a notably high draw/low-scoring rate, and two legs assumed a mid-table home favorite would win/score more comfortably than they did. First logged day — recorded as an observation, not yet acted on per the standing guardrail. Re-check over the next ~2 weeks for a repeat of 'favorite assumed to win/score more than expected in a genuinely tight fixture' before treating it as a real pattern."
-      ],
-      "slips": [
-        {
-          "name": "7-Day Rollover",
-          "status": "won",
-          "legs": [
-            {
-              "match": "Atlanta United vs Sporting Kansas City",
-              "pick": "Atlanta United Win",
-              "status": "won",
-              "score": "2-1"
-            }
-          ]
-        },
-        {
-          "name": "Boost Slip",
-          "status": "lost",
-          "legs": [
-            {
-              "match": "Atlético San Luis vs Pachuca",
-              "pick": "Pachuca Win",
-              "status": "lost",
-              "score": "1-1"
-            }
-          ]
-        },
-        {
-          "name": "Bet of the Day",
-          "status": "lost",
-          "legs": [
-            {
-              "match": "Chapecoense vs São Paulo",
-              "pick": "São Paulo Win",
-              "status": "lost",
-              "score": "1-0"
-            },
-            {
-              "match": "Coritiba vs Corinthians",
-              "pick": "BTTS - No",
-              "status": "lost",
-              "score": "2-1"
-            }
-          ]
-        },
-        {
-          "name": "Power 5",
-          "status": "lost",
-          "legs": [
-            {
-              "match": "Santos vs Mirassol",
-              "pick": "Santos Win",
-              "status": "lost",
-              "score": "1-1"
-            },
-            {
-              "match": "Coritiba vs Corinthians",
-              "pick": "Corinthians Win",
-              "status": "lost",
-              "score": "2-1"
-            },
-            {
-              "match": "Atlético San Luis vs Pachuca",
-              "pick": "Over 2.5 Goals",
-              "status": "lost",
-              "score": "1-1"
-            }
-          ]
-        },
-        {
-          "name": "Moonshot",
-          "status": "lost",
-          "legs": [
-            {
-              "match": "Atlanta United vs Sporting Kansas City",
-              "pick": "BTTS - Yes",
-              "status": "won",
-              "score": "2-1"
-            },
-            {
-              "match": "Atlético San Luis vs Pachuca",
-              "pick": "BTTS - Yes",
-              "status": "won",
-              "score": "1-1"
-            },
-            {
-              "match": "Santos vs Mirassol",
-              "pick": "Over 2.5 Goals",
-              "status": "lost",
-              "score": "1-1"
-            },
-            {
-              "match": "Racing Club vs Boca Juniors",
-              "pick": "Draw",
-              "status": "won",
-              "score": "1-1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "history": []
 }
