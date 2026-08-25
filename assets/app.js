@@ -1,4 +1,4 @@
-const STATUS_LABEL = { pending:'Pending', won:'Won', lost:'Lost', void:'Void' };
+const STATUS_LABEL = { pending:'Upcoming', won:'Won', lost:'Lost', void:'Void' };
 
 function statusBadgeHtml(status){
   const s = status || 'pending';
@@ -7,6 +7,27 @@ function statusBadgeHtml(status){
   }
   return `<span class="status-badge status-${s}">${STATUS_LABEL[s]||s}</span>`;
 }
+
+function legTagHtml(status){
+  const s = status || 'pending';
+  return `<span class="leg-tag leg-tag-${s}">${STATUS_LABEL[s]||s}</span>`;
+}
+
+function resolvedSlipCard(s){
+  const legs = (s.legs||[]).map(leg => `
+    <div class="yesterday-leg">
+      <span>${leg.match}${leg.score ? ` <span class="leg-score">(${leg.score})</span>` : ''}${leg.pick ? ' — ' + leg.pick : ''}</span>
+      ${legTagHtml(leg.status)}
+    </div>`).join('');
+  return `
+    <div class="yesterday-card">
+      <div class="yesterday-head">
+        <span>${s.name}</span>
+        ${statusBadgeHtml(s.status)}
+      </div>
+      ${legs ? `<div class="yesterday-legs">${legs}</div>` : ''}
+    </div>`;
+}
 const STORAGE_KEY = 'dsg-site-data';
 
 
@@ -14,6 +35,58 @@ function fmtDate(iso){
   if(!iso) return '';
   const d = new Date(iso + 'T00:00:00');
   return d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long' });
+}
+
+let lastUpdatedIso = null;
+let lastRenderedData = null;
+
+function timeAgoText(iso){
+  if(!iso) return '';
+  const then = new Date(iso).getTime();
+  const now = Date.now();
+  const seconds = Math.max(0, Math.floor((now - then) / 1000));
+  if(seconds < 60) return 'Updated a few seconds ago';
+  const minutes = Math.floor(seconds / 60);
+  if(minutes < 60) return `Updated ${minutes} minute${minutes===1?'':'s'} ago`;
+  const hours = Math.floor(minutes / 60);
+  if(hours < 24) return `Updated ${hours} hour${hours===1?'':'s'} ago`;
+  const days = Math.floor(hours / 24);
+  return `Updated ${days} day${days===1?'':'s'} ago`;
+}
+
+function tickUpdatedStamp(){
+  const el = document.getElementById('updated-stamp');
+  if(el && lastUpdatedIso) el.textContent = timeAgoText(lastUpdatedIso);
+}
+function tickLiveUpdates(){
+  if(lastRenderedData) render(lastRenderedData);
+}
+setInterval(tickLiveUpdates, 30000);
+
+// A match is assumed to run ~130 minutes (90 + stoppage + halftime buffer) from kickoff
+const MATCH_DURATION_MS = 130 * 60 * 1000;
+
+function liveStateForLegs(legs){
+  if(!legs || !legs.length) return 'pending';
+  const now = Date.now();
+  let anyStarted = false;
+  let allFinished = true;
+  for(const leg of legs){
+    if(!leg.kickoff_iso){ allFinished = false; continue; }
+    const kt = new Date(leg.kickoff_iso).getTime();
+    if(isNaN(kt)){ allFinished = false; continue; }
+    if(now >= kt) anyStarted = true;
+    if(now < kt + MATCH_DURATION_MS) allFinished = false;
+  }
+  if(!anyStarted) return 'pending';
+  if(!allFinished) return 'live';
+  return 'finished';
+}
+
+function pendingStateBadgeHtml(legs){
+  const state = liveStateForLegs(legs);
+  const LABELS = { pending:'Upcoming', live:'Running', finished:'Finished' };
+  return `<span class="status-badge status-pend-${state}">${LABELS[state]}</span>`;
 }
 
 function ticketCard(slip){
@@ -31,7 +104,7 @@ function ticketCard(slip){
       <div class="ticket-top">
         <div>
           <div class="ticket-name">${slip.name}</div>
-          ${statusBadgeHtml(status)}
+          ${status === 'pending' ? pendingStateBadgeHtml(slip.legs) : statusBadgeHtml(status)}
         </div>
         <div class="ticket-odds"><div class="num">${slip.combined_odds}</div><div class="label">TOTAL ODDS</div></div>
       </div>
@@ -61,9 +134,9 @@ function buildTrackRecord(data){
 }
 
 function render(data){
-  document.getElementById('updated-stamp').textContent = data.site?.updated
-    ? 'Updated ' + new Date(data.site.updated).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}) + ' WAT'
-    : '';
+  lastRenderedData = data;
+  lastUpdatedIso = data.site?.updated || null;
+  document.getElementById('updated-stamp').textContent = timeAgoText(lastUpdatedIso);
   document.getElementById('today-date').textContent = (fmtDate(data.today?.date) || "TODAY'S FIXTURES").toUpperCase();
 
   const slips = data.today?.slips || [];
@@ -74,7 +147,7 @@ function render(data){
   const history = data.history || [];
   const yesterday = history[0];
   document.getElementById('yesterday-wrap').innerHTML = yesterday
-    ? (yesterday.slips||[]).map(s=>`<div class="yesterday-row"><span>${s.name}</span>${statusBadgeHtml(s.status)}</div>`).join('')
+    ? (yesterday.slips||[]).map(resolvedSlipCard).join('')
     : `<p class="empty-note">No slips recorded yet — results will show up here after day one.</p>`;
 
   document.getElementById('ticket-grid').innerHTML = slips.length
@@ -86,17 +159,27 @@ function render(data){
     ? track.map(t=>`<tr><td>${t.name}</td><td><div class="form-dots">${t.dots || '<span class="empty-note">No history yet</span>'}</div></td><td class="rate">${t.rate}</td></tr>`).join('')
     : `<tr><td colspan="3" class="empty-note">Track record builds up once a few days of results are in.</td></tr>`;
 
+function boardRow(p){
+  const state = liveStateForLegs([p]); // reuse the same kickoff-based live logic as slip tickets
+  const LABELS = { pending:'Upcoming', live:'Running', finished:'Finished' };
+  const statusHtml = `<span class="status-badge status-pend-${state}">${LABELS[state]}</span>`;
+  const resultHtml = p.result
+    ? `<span class="leg-score">${p.result}</span>`
+    : (state === 'finished' ? '<span class="empty-note">TBC</span>' : '—');
+  return `<tr><td>${p.match}</td><td>${p.competition||''}</td><td>${p.kickoff||''}</td><td>${p.market}</td><td>${p.pick}</td><td class="odds">${p.odds}</td><td>${statusHtml}</td><td>${resultHtml}</td></tr>`;
+}
+
   const picks = data.today?.all_picks || [];
   document.getElementById('board-body').innerHTML = picks.length
-    ? picks.map(p=>`<tr><td>${p.match}</td><td>${p.competition||''}</td><td>${p.kickoff||''}</td><td>${p.market}</td><td>${p.pick}</td><td class="odds">${p.odds}</td></tr>`).join('')
-    : `<tr><td colspan="6" class="empty-note">No board data yet.</td></tr>`;
+    ? picks.map(boardRow).join('')
+    : `<tr><td colspan="8" class="empty-note">No board data yet.</td></tr>`;
 
   const older = history.slice(1);
   document.getElementById('history-wrap').innerHTML = older.length
     ? older.map(day => `
       <details class="history-day">
         <summary><span>${fmtDate(day.date)}</span><span>▾</span></summary>
-        ${(day.slips||[]).map(s=>`<div class="slip-row"><span>${s.name}</span>${statusBadgeHtml(s.status)}</div>`).join('')}
+        ${(day.slips||[]).map(resolvedSlipCard).join('')}
       </details>`).join('')
     : `<p class="empty-note">Older results will build up here day by day.</p>`;
 }
@@ -106,6 +189,7 @@ async function loadAndRender(){
     const res = await fetch('data/site-data.json', { cache: 'no-store' });
     if(!res.ok) throw new Error('failed to load data/site-data.json');
     const data = await res.json();
+    lastRenderedData = data;
     render(data);
   }catch(e){
     document.getElementById('ticket-grid').innerHTML =
