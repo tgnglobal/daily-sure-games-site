@@ -1,69 +1,336 @@
 {
-  "site": { "brand": "Daily Sure Games", "updated": "2026-08-25T19:15:00+01:00" },
+  "site": {
+    "brand": "Daily Sure Games",
+    "updated": "2026-08-23T21:00:00+01:00"
+  },
   "today": {
-    "date": "2026-08-25",
+    "date": "2026-08-23",
     "slips": [
-      { "id": "rollover", "name": "7-Day Rollover", "combined_odds": "1.60", "status": "pending", "legs": [
-        { "match": "Independiente del Valle vs Deportes Tolima", "competition": "Copa Libertadores", "kickoff": "Wed 02:30 WAT", "market": "1X2", "pick": "Independiente del Valle Win", "odds": "1.60" }
-      ]},
-      { "id": "boost", "name": "Boost Slip", "combined_odds": "2.57", "status": "pending", "legs": [
-        { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.57" },
-        { "match": "Monterrey vs Chicago Fire", "competition": "Leagues Cup", "kickoff": "Wed 01:30 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.64" }
-      ]},
-      { "id": "bod", "name": "Bet of the Day", "combined_odds": "3.40", "status": "pending", "legs": [
-        { "match": "Valencia vs Real Betis", "competition": "La Liga", "kickoff": "Tue 20:00 WAT", "market": "1X2", "pick": "Draw", "odds": "3.40" }
-      ]},
-      { "id": "power5", "name": "Power 5", "combined_odds": "5.12", "status": "pending", "legs": [
-        { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "1X2", "pick": "Real Salt Lake Win", "odds": "2.38" },
-        { "match": "Cruzeiro vs Atlético Mineiro", "competition": "Copa do Brasil", "kickoff": "Wed 01:00 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "2.15" }
-      ]},
-      { "id": "moonshot", "name": "Moonshot", "combined_odds": "12.21", "status": "pending", "legs": [
-        { "match": "Cruzeiro vs Atlético Mineiro", "competition": "Copa do Brasil", "kickoff": "Wed 01:00 WAT", "market": "1X2", "pick": "Cruzeiro Win", "odds": "1.94" },
-        { "match": "Valencia vs Real Betis", "competition": "La Liga", "kickoff": "Tue 20:00 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.90" },
-        { "match": "Monterrey vs Chicago Fire", "competition": "Leagues Cup", "kickoff": "Wed 01:30 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.79" },
-        { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.85" }
-      ]}
+      {
+        "id": "rollover",
+        "name": "7-Day Rollover",
+        "combined_odds": "1.70",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Atlanta United vs Sporting Kansas City",
+            "competition": "MLS",
+            "kickoff": "Mon 00:00 WAT",
+            "market": "1X2",
+            "pick": "Atlanta United Win",
+            "odds": "1.70"
+          }
+        ]
+      },
+      {
+        "id": "boost",
+        "name": "Boost Slip",
+        "combined_odds": "2.10",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Atlético San Luis vs Pachuca",
+            "competition": "Liga MX",
+            "kickoff": "Mon 00:00 WAT",
+            "market": "1X2",
+            "pick": "Pachuca Win",
+            "odds": "2.10"
+          }
+        ]
+      },
+      {
+        "id": "bod",
+        "name": "Bet of the Day",
+        "combined_odds": "4.16",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Chapecoense vs São Paulo",
+            "competition": "Brasileirão",
+            "kickoff": "22:30 WAT",
+            "market": "1X2",
+            "pick": "São Paulo Win",
+            "odds": "2.38"
+          },
+          {
+            "match": "Coritiba vs Corinthians",
+            "competition": "Brasileirão",
+            "kickoff": "23:30 WAT",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - No",
+            "odds": "1.75"
+          }
+        ]
+      },
+      {
+        "id": "power5",
+        "name": "Power 5",
+        "combined_odds": "8.51",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Santos vs Mirassol",
+            "competition": "Brasileirão",
+            "kickoff": "22:30 WAT",
+            "market": "1X2",
+            "pick": "Santos Win",
+            "odds": "1.89"
+          },
+          {
+            "match": "Coritiba vs Corinthians",
+            "competition": "Brasileirão",
+            "kickoff": "23:30 WAT",
+            "market": "1X2",
+            "pick": "Corinthians Win",
+            "odds": "2.53"
+          },
+          {
+            "match": "Atlético San Luis vs Pachuca",
+            "competition": "Liga MX",
+            "kickoff": "Mon 00:00 WAT",
+            "market": "Over/Under",
+            "pick": "Over 2.5 Goals",
+            "odds": "1.78"
+          }
+        ]
+      },
+      {
+        "id": "moonshot",
+        "name": "Moonshot",
+        "combined_odds": "15.10",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Atlanta United vs Sporting Kansas City",
+            "competition": "MLS",
+            "kickoff": "Mon 00:00 WAT",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "1.52"
+          },
+          {
+            "match": "Atlético San Luis vs Pachuca",
+            "competition": "Liga MX",
+            "kickoff": "Mon 00:00 WAT",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "1.77"
+          },
+          {
+            "match": "Santos vs Mirassol",
+            "competition": "Brasileirão",
+            "kickoff": "22:30 WAT",
+            "market": "Over/Under",
+            "pick": "Over 2.5 Goals",
+            "odds": "1.84"
+          },
+          {
+            "match": "Racing Club vs Boca Juniors",
+            "competition": "Argentina Primera",
+            "kickoff": "Mon 01:30 WAT",
+            "market": "1X2",
+            "pick": "Draw",
+            "odds": "3.05"
+          }
+        ]
+      }
     ],
     "all_picks": [
-      { "match": "Valencia vs Real Betis", "competition": "La Liga", "kickoff": "Tue 20:00 WAT", "market": "1X2", "pick": "Draw", "odds": "3.40" },
-      { "match": "Valencia vs Real Betis", "competition": "La Liga", "kickoff": "Tue 20:00 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.90" },
-      { "match": "Valencia vs Real Betis", "competition": "La Liga", "kickoff": "Tue 20:00 WAT", "market": "Over/Under", "pick": "Under 2.5 Goals", "odds": "1.90" },
-      { "match": "Al Ettifaq vs Al Nassr", "competition": "Saudi Pro League", "kickoff": "Tue 20:00 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.61" },
-      { "match": "Cruzeiro vs Atlético Mineiro", "competition": "Copa do Brasil", "kickoff": "Wed 01:00 WAT", "market": "1X2", "pick": "Cruzeiro Win", "odds": "1.94" },
-      { "match": "Cruzeiro vs Atlético Mineiro", "competition": "Copa do Brasil", "kickoff": "Wed 01:00 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "2.15" },
-      { "match": "Monterrey vs Chicago Fire", "competition": "Leagues Cup", "kickoff": "Wed 01:30 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.64" },
-      { "match": "Monterrey vs Chicago Fire", "competition": "Leagues Cup", "kickoff": "Wed 01:30 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.79" },
-      { "match": "Independiente del Valle vs Deportes Tolima", "competition": "Copa Libertadores", "kickoff": "Wed 02:30 WAT", "market": "1X2", "pick": "Independiente del Valle Win", "odds": "1.60" },
-      { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.57" },
-      { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.85" },
-      { "match": "León vs Real Salt Lake", "competition": "Leagues Cup", "kickoff": "Wed 03:30 WAT", "market": "1X2", "pick": "Real Salt Lake Win", "odds": "2.38" }
+      {
+        "match": "Santos vs Mirassol",
+        "competition": "Brasileirão",
+        "kickoff": "22:30 WAT",
+        "market": "1X2",
+        "pick": "Santos Win",
+        "odds": "1.89"
+      },
+      {
+        "match": "Santos vs Mirassol",
+        "competition": "Brasileirão",
+        "kickoff": "22:30 WAT",
+        "market": "Over/Under",
+        "pick": "Over 2.5 Goals",
+        "odds": "1.84"
+      },
+      {
+        "match": "Chapecoense vs São Paulo",
+        "competition": "Brasileirão",
+        "kickoff": "22:30 WAT",
+        "market": "1X2",
+        "pick": "São Paulo Win",
+        "odds": "2.38"
+      },
+      {
+        "match": "Coritiba vs Corinthians",
+        "competition": "Brasileirão",
+        "kickoff": "23:30 WAT",
+        "market": "1X2",
+        "pick": "Corinthians Win",
+        "odds": "2.53"
+      },
+      {
+        "match": "Coritiba vs Corinthians",
+        "competition": "Brasileirão",
+        "kickoff": "23:30 WAT",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - No",
+        "odds": "1.75"
+      },
+      {
+        "match": "Atlanta United vs Sporting Kansas City",
+        "competition": "MLS",
+        "kickoff": "Mon 00:00 WAT",
+        "market": "1X2",
+        "pick": "Atlanta United Win",
+        "odds": "1.70"
+      },
+      {
+        "match": "Atlanta United vs Sporting Kansas City",
+        "competition": "MLS",
+        "kickoff": "Mon 00:00 WAT",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "1.52"
+      },
+      {
+        "match": "Atlético San Luis vs Pachuca",
+        "competition": "Liga MX",
+        "kickoff": "Mon 00:00 WAT",
+        "market": "1X2",
+        "pick": "Pachuca Win",
+        "odds": "2.10"
+      },
+      {
+        "match": "Atlético San Luis vs Pachuca",
+        "competition": "Liga MX",
+        "kickoff": "Mon 00:00 WAT",
+        "market": "Over/Under",
+        "pick": "Over 2.5 Goals",
+        "odds": "1.78"
+      },
+      {
+        "match": "Atlético San Luis vs Pachuca",
+        "competition": "Liga MX",
+        "kickoff": "Mon 00:00 WAT",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "1.77"
+      },
+      {
+        "match": "Racing Club vs Boca Juniors",
+        "competition": "Argentina Primera",
+        "kickoff": "Mon 01:30 WAT",
+        "market": "1X2",
+        "pick": "Draw",
+        "odds": "3.05"
+      },
+      {
+        "match": "Racing Club vs Boca Juniors",
+        "competition": "Argentina Primera",
+        "kickoff": "Mon 01:30 WAT",
+        "market": "1X2",
+        "pick": "Racing Club Win",
+        "odds": "2.90"
+      },
+      {
+        "match": "Racing Club vs Boca Juniors",
+        "competition": "Argentina Primera",
+        "kickoff": "Mon 01:30 WAT",
+        "market": "1X2",
+        "pick": "Boca Juniors Win",
+        "odds": "2.55"
+      }
     ]
   },
   "history": [
     {
       "date": "2026-08-23",
       "slips": [
-        { "id": "rollover", "name": "7-Day Rollover", "combined_odds": "1.70", "status": "won", "legs": [
-          { "match": "Atlanta United vs Sporting Kansas City", "competition": "MLS", "kickoff": "Mon 00:00 WAT", "market": "1X2", "pick": "Atlanta United Win", "odds": "1.70" }
-        ]},
-        { "id": "boost", "name": "Boost Slip", "combined_odds": "2.10", "status": "lost", "legs": [
-          { "match": "Atlético San Luis vs Pachuca", "competition": "Liga MX", "kickoff": "Mon 00:00 WAT", "market": "1X2", "pick": "Pachuca Win", "odds": "2.10" }
-        ]},
-        { "id": "bod", "name": "Bet of the Day", "combined_odds": "4.16", "status": "lost", "legs": [
-          { "match": "Chapecoense vs São Paulo", "competition": "Brasileirão", "kickoff": "22:30 WAT", "market": "1X2", "pick": "São Paulo Win", "odds": "2.38" },
-          { "match": "Coritiba vs Corinthians", "competition": "Brasileirão", "kickoff": "23:30 WAT", "market": "BTTS", "pick": "Both Teams to Score - No", "odds": "1.75" }
-        ]},
-        { "id": "power5", "name": "Power 5", "combined_odds": "8.51", "status": "lost", "legs": [
-          { "match": "Santos vs Mirassol", "competition": "Brasileirão", "kickoff": "22:30 WAT", "market": "1X2", "pick": "Santos Win", "odds": "1.89" },
-          { "match": "Coritiba vs Corinthians", "competition": "Brasileirão", "kickoff": "23:30 WAT", "market": "1X2", "pick": "Corinthians Win", "odds": "2.53" },
-          { "match": "Atlético San Luis vs Pachuca", "competition": "Liga MX", "kickoff": "Mon 00:00 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.78" }
-        ]},
-        { "id": "moonshot", "name": "Moonshot", "combined_odds": "15.10", "status": "lost", "legs": [
-          { "match": "Atlanta United vs Sporting Kansas City", "competition": "MLS", "kickoff": "Mon 00:00 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.52" },
-          { "match": "Atlético San Luis vs Pachuca", "competition": "Liga MX", "kickoff": "Mon 00:00 WAT", "market": "BTTS", "pick": "Both Teams to Score - Yes", "odds": "1.77" },
-          { "match": "Santos vs Mirassol", "competition": "Brasileirão", "kickoff": "22:30 WAT", "market": "Over/Under", "pick": "Over 2.5 Goals", "odds": "1.84" },
-          { "match": "Racing Club vs Boca Juniors", "competition": "Argentina Primera", "kickoff": "Mon 01:30 WAT", "market": "1X2", "pick": "Draw", "odds": "3.05" }
-        ]}
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "legs": [
+            {
+              "match": "Atlanta United vs Sporting Kansas City",
+              "pick": "Atlanta United Win",
+              "status": "won"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "lost",
+          "legs": [
+            {
+              "match": "Atlético San Luis vs Pachuca",
+              "pick": "Pachuca Win",
+              "status": "lost"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "lost",
+          "legs": [
+            {
+              "match": "Chapecoense vs São Paulo",
+              "pick": "São Paulo Win",
+              "status": "lost"
+            },
+            {
+              "match": "Coritiba vs Corinthians",
+              "pick": "BTTS - No",
+              "status": "lost"
+            }
+          ]
+        },
+        {
+          "name": "Power 5",
+          "status": "lost",
+          "legs": [
+            {
+              "match": "Santos vs Mirassol",
+              "pick": "Santos Win",
+              "status": "lost"
+            },
+            {
+              "match": "Coritiba vs Corinthians",
+              "pick": "Corinthians Win",
+              "status": "lost"
+            },
+            {
+              "match": "Atlético San Luis vs Pachuca",
+              "pick": "Over 2.5 Goals",
+              "status": "lost"
+            }
+          ]
+        },
+        {
+          "name": "Moonshot",
+          "status": "lost",
+          "legs": [
+            {
+              "match": "Atlanta United vs Sporting Kansas City",
+              "pick": "BTTS - Yes",
+              "status": "won"
+            },
+            {
+              "match": "Atlético San Luis vs Pachuca",
+              "pick": "BTTS - Yes",
+              "status": "won"
+            },
+            {
+              "match": "Santos vs Mirassol",
+              "pick": "Over 2.5 Goals",
+              "status": "lost"
+            },
+            {
+              "match": "Racing Club vs Boca Juniors",
+              "pick": "Draw",
+              "status": "won"
+            }
+          ]
+        }
       ]
     }
   ]
