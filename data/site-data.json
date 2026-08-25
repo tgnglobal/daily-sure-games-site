@@ -1,430 +1,358 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-08-25T19:02:32+01:00"
+    "updated": "2026-08-25T19:22:01+01:00"
   },
   "today": {
     "date": "2026-08-25",
     "slips": [
       {
-        "id": "roll-01",
+        "id": "roll-0825",
         "name": "7-Day Rollover",
-        "combined_odds": "1.52",
+        "combined_odds": "1.56",
         "status": "pending",
         "legs": [
           {
-            "match": "Benfica vs Dynamo Kyiv",
+            "match": "Galatasaray vs Young Boys",
             "competition": "UEFA Champions League Qualification",
-            "kickoff": "20:00 WAT",
-            "kickoff_iso": "2026-08-25T20:00:00+01:00",
-            "market": "Double Chance",
-            "pick": "1X",
-            "odds": "1.18"
+            "kickoff": "20:30 WAT",
+            "kickoff_iso": "2026-08-25T20:30:00+01:00",
+            "market": "Over/Under",
+            "pick": "Over 1.5 Goals",
+            "odds": "1.22"
           },
           {
-            "match": "Red Star Belgrade vs Maccabi Haifa",
+            "match": "RB Salzburg vs Dynamo Kyiv",
             "competition": "UEFA Champions League Qualification",
-            "kickoff": "20:00 WAT",
-            "kickoff_iso": "2026-08-25T20:00:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Over 1.5 Goals",
-            "odds": "1.29"
+            "kickoff": "21:00 WAT",
+            "kickoff_iso": "2026-08-25T21:00:00+01:00",
+            "market": "Double Chance & Goals",
+            "pick": "1X & Over 1.5 Goals",
+            "odds": "1.28"
           }
         ]
       },
       {
-        "id": "boost-02",
+        "id": "boost-0825",
         "name": "Boost Slip",
-        "combined_odds": "2.05",
+        "combined_odds": "2.08",
         "status": "pending",
         "legs": [
           {
-            "match": "Viktoria Plzen vs Qarabag FK",
+            "match": "Sparta Prague vs Malmö FF",
             "competition": "UEFA Champions League Qualification",
-            "kickoff": "20:00 WAT",
-            "kickoff_iso": "2026-08-25T20:00:00+01:00",
-            "market": "Double Chance",
-            "pick": "1X",
-            "odds": "1.32"
-          },
-          {
-            "match": "Bolton Wanderers vs Aston Villa",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Over 1.5 Goals",
-            "odds": "1.25"
-          },
-          {
-            "match": "Fleetwood Town vs Everton",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Double Chance",
-            "pick": "X2",
-            "odds": "1.24"
-          }
-        ]
-      },
-      {
-        "id": "botd-03",
-        "name": "Bet of the Day",
-        "combined_odds": "3.12",
-        "status": "pending",
-        "legs": [
-          {
-            "match": "Stockport County vs Leicester City",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Team Total Goals",
-            "pick": "Leicester City Over 1.5 Goals",
-            "odds": "1.58"
-          },
-          {
-            "match": "Wolverhampton Wanderers vs Preston North End",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Double Chance",
-            "pick": "1X",
-            "odds": "1.20"
-          },
-          {
-            "match": "Watford vs Milton Keynes Dons",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
+            "kickoff": "21:00 WAT",
+            "kickoff_iso": "2026-08-25T21:00:00+01:00",
             "market": "Double Chance",
             "pick": "1X",
             "odds": "1.22"
           },
           {
-            "match": "Grimsby Town vs Nottingham Forest",
+            "match": "Everton vs Doncaster Rovers",
             "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Over 1.5 Goals",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "1X2",
+            "pick": "Everton Win",
             "odds": "1.35"
-          }
-        ]
-      },
-      {
-        "id": "power-04",
-        "name": "Power 5",
-        "combined_odds": "5.21",
-        "status": "pending",
-        "legs": [
-          {
-            "match": "Norwich City vs AFC Bournemouth",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Both Teams to Score",
-            "pick": "BTTS Yes",
-            "odds": "1.74"
           },
           {
-            "match": "Sheffield Wednesday vs Rochdale",
+            "match": "Birmingham City vs Fulham",
             "competition": "EFL Cup",
-            "kickoff": "19:30 WAT",
-            "kickoff_iso": "2026-08-25T19:30:00+01:00",
-            "market": "Double Chance",
-            "pick": "1X",
-            "odds": "1.20"
-          },
-          {
-            "match": "Rotherham United vs Morecambe",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Double Chance",
-            "pick": "1X",
-            "odds": "1.21"
-          },
-          {
-            "match": "Walsall vs Charlton Athletic",
-            "competition": "EFL Cup",
-            "kickoff": "19:00 WAT",
-            "kickoff_iso": "2026-08-25T19:00:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Under 3.5 Goals",
-            "odds": "1.34"
-          },
-          {
-            "match": "Barrow vs Lincoln City",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Over/Under Goals",
+            "kickoff": "21:00 WAT",
+            "kickoff_iso": "2026-08-25T21:00:00+01:00",
+            "market": "Over/Under",
             "pick": "Over 1.5 Goals",
-            "odds": "1.54"
+            "odds": "1.26"
           }
         ]
       },
       {
-        "id": "moon-05",
-        "name": "Moonshot",
-        "combined_odds": "10.42",
+        "id": "botd-0825",
+        "name": "Bet of the Day",
+        "combined_odds": "3.09",
         "status": "pending",
         "legs": [
           {
-            "match": "Bradford City vs Blackburn Rovers",
+            "match": "Crystal Palace vs Norwich City",
             "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Both Teams to Score",
+            "kickoff": "21:00 WAT",
+            "kickoff_iso": "2026-08-25T21:00:00+01:00",
+            "market": "1X2",
+            "pick": "Crystal Palace Win",
+            "odds": "1.45"
+          },
+          {
+            "match": "Leicester City vs Tranmere Rovers",
+            "competition": "EFL Cup",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "Over/Under",
+            "pick": "Over 2.5 Goals",
+            "odds": "1.50"
+          },
+          {
+            "match": "Watford vs Plymouth Argyle",
+            "competition": "EFL Cup",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "Double Chance & Goals",
+            "pick": "1X & Over 1.5 Goals",
+            "odds": "1.42"
+          }
+        ]
+      },
+      {
+        "id": "pwr5-0825",
+        "name": "Power 5",
+        "combined_odds": "5.39",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Brighton & Hove Albion vs Crawley Town",
+            "competition": "EFL Cup",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "Handicap",
+            "pick": "Brighton -1.5",
+            "odds": "1.40"
+          },
+          {
+            "match": "Queens Park Rangers vs Luton Town",
+            "competition": "EFL Cup",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "BTTS",
             "pick": "BTTS Yes",
-            "odds": "1.82"
+            "odds": "1.72"
           },
           {
-            "match": "Derby County vs West Bromwich Albion",
+            "match": "Millwall vs Leyton Orient",
             "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Under 3.5 Goals",
-            "odds": "1.32"
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "1X2",
+            "pick": "Millwall Win",
+            "odds": "1.60"
           },
           {
-            "match": "Gillingham vs Exeter City",
+            "match": "Blackburn Rovers vs Blackpool",
             "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Double Chance",
-            "pick": "X2",
-            "odds": "1.41"
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "Over/Under",
+            "pick": "Over 2.5 Goals",
+            "odds": "1.40"
+          }
+        ]
+      },
+      {
+        "id": "moon-0825",
+        "name": "Moonshot",
+        "combined_odds": "14.49",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Middlesbrough vs Stoke City",
+            "competition": "EFL Cup",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "1X2",
+            "pick": "Middlesbrough Win",
+            "odds": "1.80"
           },
           {
-            "match": "Shrewsbury Town vs Burnley",
+            "match": "Coventry City vs Oxford United",
             "competition": "EFL Cup",
-            "kickoff": "19:30 WAT",
-            "kickoff_iso": "2026-08-25T19:30:00+01:00",
-            "market": "Double Chance",
-            "pick": "X2",
-            "odds": "1.25"
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "1X2",
+            "pick": "Coventry City Win",
+            "odds": "1.75"
           },
           {
-            "match": "Stevenage vs Peterborough United",
+            "match": "Cardiff City vs Southampton",
             "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Both Teams to Score",
-            "pick": "BTTS Yes",
+            "kickoff": "20:45 WAT",
+            "kickoff_iso": "2026-08-25T20:45:00+01:00",
+            "market": "1X2",
+            "pick": "Southampton Win",
             "odds": "1.78"
           },
           {
-            "match": "Crawley Town vs Fulham",
-            "competition": "EFL Cup",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-08-25T19:45:00+01:00",
-            "market": "Over/Under Goals",
-            "pick": "Over 1.5 Goals",
-            "odds": "1.28"
+            "match": "Rayo Vallecano vs Barcelona",
+            "competition": "La Liga",
+            "kickoff": "21:30 WAT",
+            "kickoff_iso": "2026-08-25T21:30:00+01:00",
+            "market": "1X2 & Goals",
+            "pick": "Barcelona Win & Over 1.5 Goals",
+            "odds": "1.70"
+          },
+          {
+            "match": "Real Mallorca vs Sevilla",
+            "competition": "La Liga",
+            "kickoff": "20:30 WAT",
+            "kickoff_iso": "2026-08-25T20:30:00+01:00",
+            "market": "Over/Under",
+            "pick": "Under 2.5 Goals",
+            "odds": "1.52"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Benfica vs Dynamo Kyiv",
+        "match": "Galatasaray vs Young Boys",
         "competition": "UEFA Champions League Qualification",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-08-25T20:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
-        "odds": "1.18"
-      },
-      {
-        "match": "Red Star Belgrade vs Maccabi Haifa",
-        "competition": "UEFA Champions League Qualification",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-08-25T20:00:00+01:00",
-        "market": "Over/Under Goals",
+        "kickoff": "20:30 WAT",
+        "kickoff_iso": "2026-08-25T20:30:00+01:00",
+        "market": "Over/Under",
         "pick": "Over 1.5 Goals",
-        "odds": "1.29"
-      },
-      {
-        "match": "Viktoria Plzen vs Qarabag FK",
-        "competition": "UEFA Champions League Qualification",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-08-25T20:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
-        "odds": "1.32"
-      },
-      {
-        "match": "Bolton Wanderers vs Aston Villa",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Over 1.5 Goals",
-        "odds": "1.25"
-      },
-      {
-        "match": "Fleetwood Town vs Everton",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "X2",
-        "odds": "1.24"
-      },
-      {
-        "match": "Stockport County vs Leicester City",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Team Total Goals",
-        "pick": "Leicester City Over 1.5 Goals",
-        "odds": "1.58"
-      },
-      {
-        "match": "Wolverhampton Wanderers vs Preston North End",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
-        "odds": "1.20"
-      },
-      {
-        "match": "Watford vs Milton Keynes Dons",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
         "odds": "1.22"
       },
       {
-        "match": "Grimsby Town vs Nottingham Forest",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Over 1.5 Goals",
-        "odds": "1.35"
-      },
-      {
-        "match": "Norwich City vs AFC Bournemouth",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Both Teams to Score",
-        "pick": "BTTS Yes",
-        "odds": "1.74"
-      },
-      {
-        "match": "Sheffield Wednesday vs Rochdale",
-        "competition": "EFL Cup",
-        "kickoff": "19:30 WAT",
-        "kickoff_iso": "2026-08-25T19:30:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
-        "odds": "1.20"
-      },
-      {
-        "match": "Rotherham United vs Morecambe",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "1X",
-        "odds": "1.21"
-      },
-      {
-        "match": "Walsall vs Charlton Athletic",
-        "competition": "EFL Cup",
-        "kickoff": "19:00 WAT",
-        "kickoff_iso": "2026-08-25T19:00:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Under 3.5 Goals",
-        "odds": "1.34"
-      },
-      {
-        "match": "Barrow vs Lincoln City",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Over 1.5 Goals",
-        "odds": "1.54"
-      },
-      {
-        "match": "Bradford City vs Blackburn Rovers",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Both Teams to Score",
-        "pick": "BTTS Yes",
-        "odds": "1.82"
-      },
-      {
-        "match": "Derby County vs West Bromwich Albion",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Under 3.5 Goals",
-        "odds": "1.32"
-      },
-      {
-        "match": "Gillingham vs Exeter City",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "X2",
-        "odds": "1.41"
-      },
-      {
-        "match": "Shrewsbury Town vs Burnley",
-        "competition": "EFL Cup",
-        "kickoff": "19:30 WAT",
-        "kickoff_iso": "2026-08-25T19:30:00+01:00",
-        "market": "Double Chance",
-        "pick": "X2",
-        "odds": "1.25"
-      },
-      {
-        "match": "Stevenage vs Peterborough United",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Both Teams to Score",
-        "pick": "BTTS Yes",
-        "odds": "1.78"
-      },
-      {
-        "match": "Crawley Town vs Fulham",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Over/Under Goals",
-        "pick": "Over 1.5 Goals",
+        "match": "RB Salzburg vs Dynamo Kyiv",
+        "competition": "UEFA Champions League Qualification",
+        "kickoff": "21:00 WAT",
+        "kickoff_iso": "2026-08-25T21:00:00+01:00",
+        "market": "Double Chance & Goals",
+        "pick": "1X & Over 1.5 Goals",
         "odds": "1.28"
       },
       {
-        "match": "Cambridge United vs Southampton",
-        "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
+        "match": "Sparta Prague vs Malmö FF",
+        "competition": "UEFA Champions League Qualification",
+        "kickoff": "21:00 WAT",
+        "kickoff_iso": "2026-08-25T21:00:00+01:00",
         "market": "Double Chance",
-        "pick": "X2",
+        "pick": "1X",
         "odds": "1.22"
       },
       {
-        "match": "Oxford United vs Crystal Palace",
+        "match": "Everton vs Doncaster Rovers",
         "competition": "EFL Cup",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-08-25T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "X2",
-        "odds": "1.20"
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "1X2",
+        "pick": "Everton Win",
+        "odds": "1.35"
+      },
+      {
+        "match": "Birmingham City vs Fulham",
+        "competition": "EFL Cup",
+        "kickoff": "21:00 WAT",
+        "kickoff_iso": "2026-08-25T21:00:00+01:00",
+        "market": "Over/Under",
+        "pick": "Over 1.5 Goals",
+        "odds": "1.26"
+      },
+      {
+        "match": "Crystal Palace vs Norwich City",
+        "competition": "EFL Cup",
+        "kickoff": "21:00 WAT",
+        "kickoff_iso": "2026-08-25T21:00:00+01:00",
+        "market": "1X2",
+        "pick": "Crystal Palace Win",
+        "odds": "1.45"
+      },
+      {
+        "match": "Leicester City vs Tranmere Rovers",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "Over/Under",
+        "pick": "Over 2.5 Goals",
+        "odds": "1.50"
+      },
+      {
+        "match": "Watford vs Plymouth Argyle",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "Double Chance & Goals",
+        "pick": "1X & Over 1.5 Goals",
+        "odds": "1.42"
+      },
+      {
+        "match": "Brighton & Hove Albion vs Crawley Town",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "Handicap",
+        "pick": "Brighton -1.5",
+        "odds": "1.40"
+      },
+      {
+        "match": "Queens Park Rangers vs Luton Town",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "BTTS",
+        "pick": "BTTS Yes",
+        "odds": "1.72"
+      },
+      {
+        "match": "Millwall vs Leyton Orient",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "1X2",
+        "pick": "Millwall Win",
+        "odds": "1.60"
+      },
+      {
+        "match": "Blackburn Rovers vs Blackpool",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "Over/Under",
+        "pick": "Over 2.5 Goals",
+        "odds": "1.40"
+      },
+      {
+        "match": "Middlesbrough vs Stoke City",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "1X2",
+        "pick": "Middlesbrough Win",
+        "odds": "1.80"
+      },
+      {
+        "match": "Coventry City vs Oxford United",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "1X2",
+        "pick": "Coventry City Win",
+        "odds": "1.75"
+      },
+      {
+        "match": "Cardiff City vs Southampton",
+        "competition": "EFL Cup",
+        "kickoff": "20:45 WAT",
+        "kickoff_iso": "2026-08-25T20:45:00+01:00",
+        "market": "1X2",
+        "pick": "Southampton Win",
+        "odds": "1.78"
+      },
+      {
+        "match": "Rayo Vallecano vs Barcelona",
+        "competition": "La Liga",
+        "kickoff": "21:30 WAT",
+        "kickoff_iso": "2026-08-25T21:30:00+01:00",
+        "market": "1X2 & Goals",
+        "pick": "Barcelona Win & Over 1.5 Goals",
+        "odds": "1.70"
+      },
+      {
+        "match": "Real Mallorca vs Sevilla",
+        "competition": "La Liga",
+        "kickoff": "20:30 WAT",
+        "kickoff_iso": "2026-08-25T20:30:00+01:00",
+        "market": "Over/Under",
+        "pick": "Under 2.5 Goals",
+        "odds": "1.52"
       }
     ]
   },
