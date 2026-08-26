@@ -1,113 +1,181 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-08-25T23:45:00+01:00"
+    "updated": "2026-08-26T11:25:00+01:00"
   },
   "today": {
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "slips": [
       {
         "id": "rollover",
         "name": "7-Day Rollover",
-        "combined_odds": "1.94",
+        "combined_odds": "1.55",
         "status": "pending",
         "legs": [
           {
-            "match": "Cruzeiro vs Atlético Mineiro",
-            "competition": "Copa do Brasil",
-            "kickoff": "Wed 01:00 WAT",
-            "kickoff_iso": "2026-08-26T01:00:00+01:00",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.94"
+            "match": "Newcastle United vs West Bromwich Albion",
+            "competition": "Carabao Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-26T19:45:00+01:00",
+            "market": "Win & Over 1.5",
+            "pick": "Newcastle United Win & Over 1.5 Goals",
+            "odds": "1.55"
           }
         ]
       },
       {
         "id": "boost",
         "name": "Boost Slip",
-        "combined_odds": "2.36",
+        "combined_odds": "2.96",
         "status": "pending",
         "legs": [
           {
-            "match": "Independiente del Valle vs Deportes Tolima",
-            "competition": "Copa Libertadores",
-            "kickoff": "Wed 01:30 WAT",
-            "kickoff_iso": "2026-08-26T01:30:00+01:00",
-            "market": "1X2",
-            "pick": "Independiente del Valle Win",
-            "odds": "1.54"
+            "match": "Tottenham Hotspur vs Charlton Athletic",
+            "competition": "Carabao Cup",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-08-26T19:45:00+01:00",
+            "market": "Over/Under",
+            "pick": "Over 3.5 Goals",
+            "odds": "1.70"
           },
           {
-            "match": "Monterrey vs Chicago Fire",
-            "competition": "Leagues Cup",
-            "kickoff": "Wed 01:30 WAT",
-            "kickoff_iso": "2026-08-26T01:30:00+01:00",
+            "match": "Rapid Vienna vs Hearts",
+            "competition": "UEFA Conference League Play-Off",
+            "kickoff": "17:45 WAT",
+            "kickoff_iso": "2026-08-26T17:45:00+01:00",
+            "market": "1X2",
+            "pick": "Rapid Vienna Win",
+            "odds": "1.74"
+          }
+        ]
+      },
+      {
+        "id": "bod",
+        "name": "Bet of the Day",
+        "combined_odds": "3.94",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Real Madrid vs Real Sociedad",
+            "competition": "La Liga",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-08-26T20:00:00+01:00",
             "market": "BTTS",
             "pick": "Both Teams to Score - Yes",
-            "odds": "1.53"
+            "odds": "1.75"
+          },
+          {
+            "match": "AEK Athens vs Levski Sofia",
+            "competition": "UEFA Champions League Play-Off",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-08-26T20:00:00+01:00",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "2.25"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Cruzeiro vs Atlético Mineiro",
-        "competition": "Copa do Brasil",
-        "kickoff": "Wed 01:00 WAT",
-        "kickoff_iso": "2026-08-26T01:00:00+01:00",
-        "market": "1X2",
-        "pick": "Cruzeiro Win",
-        "odds": "1.94"
+        "match": "Newcastle United vs West Bromwich Albion",
+        "competition": "Carabao Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-26T19:45:00+01:00",
+        "market": "Win & Over 1.5",
+        "pick": "Newcastle United Win & Over 1.5 Goals",
+        "odds": "1.55"
       },
       {
-        "match": "Cruzeiro vs Atlético Mineiro",
-        "competition": "Copa do Brasil",
-        "kickoff": "Wed 01:00 WAT",
-        "kickoff_iso": "2026-08-26T01:00:00+01:00",
+        "match": "Tottenham Hotspur vs Charlton Athletic",
+        "competition": "Carabao Cup",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-08-26T19:45:00+01:00",
+        "market": "Over/Under",
+        "pick": "Over 3.5 Goals",
+        "odds": "1.70"
+      },
+      {
+        "match": "Rapid Vienna vs Hearts",
+        "competition": "UEFA Conference League Play-Off",
+        "kickoff": "17:45 WAT",
+        "kickoff_iso": "2026-08-26T17:45:00+01:00",
+        "market": "1X2",
+        "pick": "Rapid Vienna Win",
+        "odds": "1.74"
+      },
+      {
+        "match": "Real Madrid vs Real Sociedad",
+        "competition": "La Liga",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-26T20:00:00+01:00",
         "market": "BTTS",
         "pick": "Both Teams to Score - Yes",
-        "odds": "1.94"
-      },
-      {
-        "match": "Cruzeiro vs Atlético Mineiro",
-        "competition": "Copa do Brasil",
-        "kickoff": "Wed 01:00 WAT",
-        "kickoff_iso": "2026-08-26T01:00:00+01:00",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
-        "odds": "2.13"
-      },
-      {
-        "match": "Independiente del Valle vs Deportes Tolima",
-        "competition": "Copa Libertadores",
-        "kickoff": "Wed 01:30 WAT",
-        "kickoff_iso": "2026-08-26T01:30:00+01:00",
-        "market": "1X2",
-        "pick": "Independiente del Valle Win",
-        "odds": "1.54"
-      },
-      {
-        "match": "Monterrey vs Chicago Fire",
-        "competition": "Leagues Cup",
-        "kickoff": "Wed 01:30 WAT",
-        "kickoff_iso": "2026-08-26T01:30:00+01:00",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.53"
-      },
-      {
-        "match": "Monterrey vs Chicago Fire",
-        "competition": "Leagues Cup",
-        "kickoff": "Wed 01:30 WAT",
-        "kickoff_iso": "2026-08-26T01:30:00+01:00",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
         "odds": "1.75"
+      },
+      {
+        "match": "Real Madrid vs Real Sociedad",
+        "competition": "La Liga",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-26T20:00:00+01:00",
+        "market": "1X2",
+        "pick": "Real Madrid Win",
+        "odds": "1.40"
+      },
+      {
+        "match": "AEK Athens vs Levski Sofia",
+        "competition": "UEFA Champions League Play-Off",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-08-26T20:00:00+01:00",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "2.25"
       }
     ]
   },
   "history": [
+    {
+      "date": "2026-08-25",
+      "notes": [
+        "7-Day Rollover (WON) — BTTS Yes on Cruzeiro vs Atlético Mineiro: both traded second-half goals in the Copa do Brasil clássico mineiro (1-1); the read that this tight derby would still produce goals at both ends held up.",
+        "Boost Slip (WON) — Independiente del Valle Win: their home form and 1-0 aggregate cushion from the first leg proved decisive, closing out Deportes Tolima 3-1 to reach the Libertadores quarter-finals. Monterrey BTTS Yes: both sides' attacking quality showed in a 2-1 Monterrey win over Chicago Fire in the Leagues Cup, with Chicago's response goal confirming the read.",
+        "Market watch: BTTS Yes is now 4-for-4 across the two logged days so far (two legs on Aug 23, two on Aug 25). Still under the 5-use sample needed before actively favoring it per the standing guardrail, but trending strongly — worth a closer look once it clears that threshold.",
+        "Pattern watch: no repeat of the Aug 23 'favorite assumed to win/score more than a genuinely tight fixture allowed' pattern on Aug 25 — all three matches produced clear-cut winners or a high-scoring draw, so no corrective action needed today.",
+        "Note: Aug 24 has no recorded results — the site's daily run was not triggered that day, so that day is a gap in the track record rather than a loss or a win."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "legs": [
+            {
+              "match": "Cruzeiro vs Atlético Mineiro",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "won",
+          "legs": [
+            {
+              "match": "Independiente del Valle vs Deportes Tolima",
+              "pick": "Independiente del Valle Win",
+              "status": "won",
+              "score": "3-1"
+            },
+            {
+              "match": "Monterrey vs Chicago Fire",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-23",
       "notes": [
