@@ -1,7 +1,7 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-08-27T10:40:00+01:00"
+    "updated": "2026-08-27T11:10:00+01:00"
   },
   "today": {
     "date": "2026-08-27",
@@ -9,24 +9,24 @@
       {
         "id": "rollover",
         "name": "7-Day Rollover",
-        "combined_odds": "1.70",
+        "combined_odds": "1.43",
         "status": "pending",
         "legs": [
           {
-            "match": "Barcelona vs Athletic Bilbao",
+            "match": "Barcelona vs Athletic Club",
             "competition": "La Liga",
             "kickoff": "20:00 WAT",
             "kickoff_iso": "2026-08-27T20:00:00+01:00",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.70"
+            "market": "Over/Under",
+            "pick": "Over 2.5 Goals",
+            "odds": "1.43"
           }
         ]
       },
       {
         "id": "boost",
         "name": "Boost Slip",
-        "combined_odds": "2.03",
+        "combined_odds": "1.32",
         "status": "pending",
         "legs": [
           {
@@ -34,9 +34,9 @@
             "competition": "Carabao Cup",
             "kickoff": "19:30 WAT",
             "kickoff_iso": "2026-08-27T19:30:00+01:00",
-            "market": "Over/Under",
-            "pick": "Over 2.5 Goals",
-            "odds": "1.41"
+            "market": "1X2",
+            "pick": "Chelsea Win",
+            "odds": "1.15"
           },
           {
             "match": "Fulham vs AFC Wimbledon",
@@ -45,38 +45,29 @@
             "kickoff_iso": "2026-08-27T20:00:00+01:00",
             "market": "1X2",
             "pick": "Fulham Win",
-            "odds": "1.20"
-          },
-          {
-            "match": "SC Freiburg vs Motherwell",
-            "competition": "UEFA Conference League Play-Off",
-            "kickoff": "17:45 WAT",
-            "kickoff_iso": "2026-08-27T17:45:00+01:00",
-            "market": "1X2",
-            "pick": "SC Freiburg Win",
-            "odds": "1.20"
+            "odds": "1.15"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Barcelona vs Athletic Bilbao",
+        "match": "Barcelona vs Athletic Club",
         "competition": "La Liga",
         "kickoff": "20:00 WAT",
         "kickoff_iso": "2026-08-27T20:00:00+01:00",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.70"
+        "market": "Over/Under",
+        "pick": "Over 2.5 Goals",
+        "odds": "1.43"
       },
       {
         "match": "Chelsea vs Luton Town",
         "competition": "Carabao Cup",
         "kickoff": "19:30 WAT",
         "kickoff_iso": "2026-08-27T19:30:00+01:00",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
-        "odds": "1.41"
+        "market": "1X2",
+        "pick": "Chelsea Win",
+        "odds": "1.15"
       },
       {
         "match": "Fulham vs AFC Wimbledon",
@@ -85,16 +76,7 @@
         "kickoff_iso": "2026-08-27T20:00:00+01:00",
         "market": "1X2",
         "pick": "Fulham Win",
-        "odds": "1.20"
-      },
-      {
-        "match": "SC Freiburg vs Motherwell",
-        "competition": "UEFA Conference League Play-Off",
-        "kickoff": "17:45 WAT",
-        "kickoff_iso": "2026-08-27T17:45:00+01:00",
-        "market": "1X2",
-        "pick": "SC Freiburg Win",
-        "odds": "1.20"
+        "odds": "1.15"
       }
     ]
   },
@@ -102,11 +84,11 @@
     {
       "date": "2026-08-26",
       "notes": [
-        "7-Day Rollover (WON) — Newcastle Win & Over 1.5: Newcastle needed two second-half goals from substitute Harvey Barnes to see off a stubborn West Brom side, winning 3-2; the read that Premier League quality would eventually tell, and that goals would flow, both held up despite the scare.",
-        "Boost Slip (LOST) — Tottenham Over 3.5 Goals landed comfortably as Spurs thrashed Charlton 5-1. But Rapid Vienna Win did not: Vienna could only draw 2-2 after extra time and lost the shootout to Hearts — the market needed a result inside normal/extra time, and Hearts' resilience (twice coming from behind) was underweighted. A Double Chance or Draw No Bet pick on the same read would have survived this one.",
-        "Bet of the Day (LOST) — Real Madrid BTTS Yes landed cleanly as Mbappé's hat-trick fueled a 4-1 win with Sociedad also scoring. AEK Athens BTTS Yes did not: AEK shut Levski out completely in a 4-0 win — Levski's misfiring attack, missing five players to injury per pre-match reports, was underweighted.",
-        "Market watch: BTTS Yes is now 5 wins from 6 uses across the three logged days (Aug 23, Aug 25, Aug 26) — that clears the 5-use sample threshold set in the standing guardrail. Given the strong hit rate, BTTS Yes will be favored more prominently going forward wherever Step 3's analysis genuinely supports it.",
-        "Pattern watch: two of today's four resolved legs were 'win' markets on ties that were tighter than their final scorelines suggested (Rapid Vienna needed extra time and lost on penalties; the AEK/Levski tie was scoreless after the first leg before the 4-0 second-leg blowout). One day's data — recorded as an observation, not yet acted on."
+        "7-Day Rollover (WON) — Newcastle Win & Over 1.5: Newcastle trailed 1-1 at the break but Harvey Barnes's second-half brace sealed a 3-2 win over West Brom; the win-and-goals read held up despite needing a fightback.",
+        "Boost Slip (LOST) — Tottenham Over 3.5 landed comfortably (5-1 vs Charlton, Savio scoring on his debut). Rapid Vienna Win did not: the tie finished level 2-2 in normal time before Hearts won on penalties. The pick assumed home advantage would be enough for an outright win, but Rapid was only a ~54% market favorite pre-match, not a genuine mismatch — underweighting how tight this fixture actually was.",
+        "Bet of the Day (LOST) — Real Madrid BTTS Yes landed (4-1 win over Real Sociedad, Mbappé hat-trick). AEK Athens BTTS Yes did not: AEK won 4-0 at home, a one-sided scoreline that shut Levski out completely — the read overestimated how much the away underdog would threaten against a stronger side.",
+        "Pattern watch: the Rapid Vienna miss is a SECOND occurrence of 'favorite assumed to win/score more than a genuinely tight fixture allowed' (first flagged 23 Aug on the South American slate). Two occurrences within the ~2-week review window means this is now being treated as a live pattern rather than a one-off. Corrective action: straight 1X2 win picks stay dropped by default going forward (already the standing rule) — a market-implied 'favorite' tag (e.g. Rapid at ~54%) is not the same as a genuine mismatch, and Double Chance/Draw No Bet should be used instead whenever the gap isn't overwhelming.",
+        "Market watch (Step 1c): across all resolved legs in history to date, straight 1X2 Win picks are now 2-for-7 (28.6% — Atlanta United and Independiente del Valle won; Pachuca, São Paulo, Santos, Corinthians and now Rapid Vienna lost), confirming the standing 'drop 1X2 by default' rule is earning its keep. Separately, BTTS Yes sits at 5-for-6 (83% — Cruzeiro, Monterrey, Atlanta, San Luis-Pachuca and Real Madrid all won; only AEK–Levski lost). That's a strong on-paper record, but BTTS (both Yes and No) stays dropped per the explicit standing rule set after prior real losses — the sample is still small and the rule was a deliberate correction, not something this single day's data should reverse."
       ],
       "slips": [
         {
@@ -148,13 +130,13 @@
           "legs": [
             {
               "match": "Real Madrid vs Real Sociedad",
-              "pick": "BTTS - Yes",
+              "pick": "Both Teams to Score - Yes",
               "status": "won",
               "score": "4-1"
             },
             {
               "match": "AEK Athens vs Levski Sofia",
-              "pick": "BTTS - Yes",
+              "pick": "Both Teams to Score - Yes",
               "status": "lost",
               "score": "4-0"
             }
