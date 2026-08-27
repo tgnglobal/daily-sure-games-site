@@ -40,6 +40,10 @@ function fmtDate(iso){
   return d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long' });
 }
 
+function liveTodayDateText(){
+  return new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long' });
+}
+
 let lastUpdatedIso = null;
 let lastRenderedData = null;
 
@@ -154,7 +158,7 @@ function render(data){
   lastRenderedData = data;
   lastUpdatedIso = data.site?.updated || null;
   setUpdatedStamp(lastUpdatedIso);
-  document.getElementById('today-date').textContent = (fmtDate(data.today?.date) || "TODAY'S FIXTURES").toUpperCase();
+  document.getElementById('today-date').textContent = liveTodayDateText().toUpperCase();
 
   const slips = data.today?.slips || [];
   document.getElementById('stat-row').innerHTML = `
