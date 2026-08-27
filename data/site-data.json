@@ -147,6 +147,7 @@
         {
           "name": "7-Day Rollover",
           "status": "won",
+          "combined_odds": "1.94",
           "legs": [
             {
               "match": "Cruzeiro vs Atlético Mineiro",
@@ -159,6 +160,7 @@
         {
           "name": "Boost Slip",
           "status": "won",
+          "combined_odds": "2.36",
           "legs": [
             {
               "match": "Independiente del Valle vs Deportes Tolima",
@@ -190,6 +192,7 @@
         {
           "name": "7-Day Rollover",
           "status": "won",
+          "combined_odds": "1.70",
           "legs": [
             {
               "match": "Atlanta United vs Sporting Kansas City",
@@ -202,6 +205,7 @@
         {
           "name": "Boost Slip",
           "status": "lost",
+          "combined_odds": "2.10",
           "legs": [
             {
               "match": "Atlético San Luis vs Pachuca",
@@ -214,6 +218,7 @@
         {
           "name": "Bet of the Day",
           "status": "lost",
+          "combined_odds": "4.16",
           "legs": [
             {
               "match": "Chapecoense vs São Paulo",
@@ -232,6 +237,7 @@
         {
           "name": "Power 5",
           "status": "lost",
+          "combined_odds": "8.51",
           "legs": [
             {
               "match": "Santos vs Mirassol",
@@ -256,6 +262,7 @@
         {
           "name": "Moonshot",
           "status": "lost",
+          "combined_odds": "15.10",
           "legs": [
             {
               "match": "Atlanta United vs Sporting Kansas City",
