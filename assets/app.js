@@ -22,7 +22,10 @@ function resolvedSlipCard(s){
   return `
     <div class="yesterday-card">
       <div class="yesterday-head">
-        <span>${s.name}</span>
+        <div class="yesterday-head-name">
+          <span>${s.name}</span>
+          ${s.combined_odds ? `<span class="yesterday-odds">${s.combined_odds}</span>` : ''}
+        </div>
         ${statusBadgeHtml(s.status)}
       </div>
       ${legs ? `<div class="yesterday-legs">${legs}</div>` : ''}
@@ -45,18 +48,32 @@ function timeAgoText(iso){
   const then = new Date(iso).getTime();
   const now = Date.now();
   const seconds = Math.max(0, Math.floor((now - then) / 1000));
-  if(seconds < 60) return 'Updated a few seconds ago';
+  if(seconds < 60) return 'a few seconds ago';
   const minutes = Math.floor(seconds / 60);
-  if(minutes < 60) return `Updated ${minutes} minute${minutes===1?'':'s'} ago`;
+  if(minutes < 60) return `${minutes} minute${minutes===1?'':'s'} ago`;
   const hours = Math.floor(minutes / 60);
-  if(hours < 24) return `Updated ${hours} hour${hours===1?'':'s'} ago`;
+  if(hours < 24) return `${hours} hour${hours===1?'':'s'} ago`;
   const days = Math.floor(hours / 24);
-  return `Updated ${days} day${days===1?'':'s'} ago`;
+  if(days < 30) return `${days} day${days===1?'':'s'} ago`;
+  const months = Math.floor(days / 30);
+  if(months < 12) return `${months} month${months===1?'':'s'} ago`;
+  const years = Math.floor(months / 12);
+  return `${years} year${years===1?'':'s'} ago`;
+}
+
+function setUpdatedStamp(iso){
+  const el = document.getElementById('updated-stamp');
+  if(!el) return;
+  const labelEl = el.querySelector('.updated-label');
+  const timeEl = el.querySelector('.updated-time');
+  if(labelEl && timeEl){
+    labelEl.textContent = 'Updated';
+    timeEl.textContent = iso ? timeAgoText(iso) : '';
+  }
 }
 
 function tickUpdatedStamp(){
-  const el = document.getElementById('updated-stamp');
-  if(el && lastUpdatedIso) el.textContent = timeAgoText(lastUpdatedIso);
+  if(lastUpdatedIso) setUpdatedStamp(lastUpdatedIso);
 }
 function tickLiveUpdates(){
   if(lastRenderedData) render(lastRenderedData);
@@ -136,7 +153,7 @@ function buildTrackRecord(data){
 function render(data){
   lastRenderedData = data;
   lastUpdatedIso = data.site?.updated || null;
-  document.getElementById('updated-stamp').textContent = timeAgoText(lastUpdatedIso);
+  setUpdatedStamp(lastUpdatedIso);
   document.getElementById('today-date').textContent = (fmtDate(data.today?.date) || "TODAY'S FIXTURES").toUpperCase();
 
   const slips = data.today?.slips || [];
