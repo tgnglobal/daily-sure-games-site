@@ -1,157 +1,353 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-08-27T11:10:00+01:00"
+    "updated": "2026-09-20T14:42:00+01:00"
   },
   "today": {
-    "date": "2026-08-27",
+    "date": "2026-09-20",
     "slips": [
       {
         "id": "rollover",
         "name": "7-Day Rollover",
-        "combined_odds": "1.43",
+        "combined_odds": "1.52",
         "status": "pending",
         "legs": [
           {
-            "match": "Barcelona vs Athletic Club",
+            "match": "Atletico Madrid vs Real Madrid",
             "competition": "La Liga",
-            "kickoff": "20:00 WAT",
-            "kickoff_iso": "2026-08-27T20:00:00+01:00",
-            "market": "Over/Under",
-            "pick": "Over 2.5 Goals",
-            "odds": "1.43"
+            "kickoff": "15:15 WAT",
+            "kickoff_iso": "2026-09-20T15:15:00+01:00",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "1.52"
           }
         ]
       },
       {
         "id": "boost",
         "name": "Boost Slip",
-        "combined_odds": "1.32",
+        "combined_odds": "2.03",
         "status": "pending",
         "legs": [
           {
-            "match": "Chelsea vs Luton Town",
-            "competition": "Carabao Cup",
-            "kickoff": "19:30 WAT",
-            "kickoff_iso": "2026-08-27T19:30:00+01:00",
+            "match": "Brann vs Bodo/Glimt",
+            "competition": "Norway Eliteserien",
+            "kickoff": "18:15 WAT",
+            "kickoff_iso": "2026-09-20T18:15:00+01:00",
             "market": "1X2",
-            "pick": "Chelsea Win",
-            "odds": "1.15"
+            "pick": "Bodo/Glimt Win",
+            "odds": "1.60"
           },
           {
-            "match": "Fulham vs AFC Wimbledon",
-            "competition": "Carabao Cup",
-            "kickoff": "20:00 WAT",
-            "kickoff_iso": "2026-08-27T20:00:00+01:00",
+            "match": "AC Milan vs Lecce",
+            "competition": "Serie A",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-09-20T19:45:00+01:00",
             "market": "1X2",
-            "pick": "Fulham Win",
-            "odds": "1.15"
+            "pick": "AC Milan Win",
+            "odds": "1.27"
+          }
+        ]
+      },
+      {
+        "id": "bod",
+        "name": "Bet of the Day",
+        "combined_odds": "3.04",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Slavia Prague vs Viktoria Plzen",
+            "competition": "Czechia 1. Liga",
+            "kickoff": "17:00 WAT",
+            "kickoff_iso": "2026-09-20T17:00:00+01:00",
+            "market": "1X2",
+            "pick": "Slavia Prague Win",
+            "odds": "1.55"
+          },
+          {
+            "match": "Club Brugge vs Genk",
+            "competition": "Belgium Pro League",
+            "kickoff": "17:30 WAT",
+            "kickoff_iso": "2026-09-20T17:30:00+01:00",
+            "market": "1X2",
+            "pick": "Club Brugge Win",
+            "odds": "1.61"
+          },
+          {
+            "match": "Fenerbahce vs Eyupspor",
+            "competition": "Turkiye Super Lig",
+            "kickoff": "15:00 WAT",
+            "kickoff_iso": "2026-09-20T15:00:00+01:00",
+            "market": "1X2",
+            "pick": "Fenerbahce Win",
+            "odds": "1.22"
+          }
+        ]
+      },
+      {
+        "id": "power5",
+        "name": "Power 5",
+        "combined_odds": "7.35",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Villarreal vs Levante",
+            "competition": "La Liga",
+            "kickoff": "17:30 WAT",
+            "kickoff_iso": "2026-09-20T17:30:00+01:00",
+            "market": "1X2",
+            "pick": "Villarreal Win",
+            "odds": "1.54"
+          },
+          {
+            "match": "Marseille vs PSG",
+            "competition": "Ligue 1",
+            "kickoff": "19:45 WAT",
+            "kickoff_iso": "2026-09-20T19:45:00+01:00",
+            "market": "1X2",
+            "pick": "PSG Win",
+            "odds": "1.48"
+          },
+          {
+            "match": "Flamengo vs Bragantino",
+            "competition": "Brasileirao Serie A",
+            "kickoff": "22:30 WAT",
+            "kickoff_iso": "2026-09-20T22:30:00+01:00",
+            "market": "1X2",
+            "pick": "Flamengo Win",
+            "odds": "1.36"
+          },
+          {
+            "match": "Vitoria Guimaraes vs Moreirense",
+            "competition": "Liga Portugal",
+            "kickoff": "15:30 WAT",
+            "kickoff_iso": "2026-09-20T15:30:00+01:00",
+            "market": "1X2",
+            "pick": "Vitoria Guimaraes Win",
+            "odds": "1.47"
+          },
+          {
+            "match": "Deportivo vs Real Betis",
+            "competition": "La Liga",
+            "kickoff": "17:30 WAT",
+            "kickoff_iso": "2026-09-20T17:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "Real Betis or Draw (X2)",
+            "odds": "1.30"
+          },
+          {
+            "match": "Paderborn vs Hoffenheim",
+            "competition": "Bundesliga",
+            "kickoff": "18:30 WAT",
+            "kickoff_iso": "2026-09-20T18:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "Hoffenheim or Draw (X2)",
+            "odds": "1.24"
+          }
+        ]
+      },
+      {
+        "id": "moonshot",
+        "name": "Moonshot",
+        "combined_odds": "12.66",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Nice vs Lille",
+            "competition": "Ligue 1",
+            "kickoff": "16:15 WAT",
+            "kickoff_iso": "2026-09-20T16:15:00+01:00",
+            "market": "1X2",
+            "pick": "Lille Win",
+            "odds": "2.25"
+          },
+          {
+            "match": "Juventus vs Atalanta",
+            "competition": "Serie A",
+            "kickoff": "17:00 WAT",
+            "kickoff_iso": "2026-09-20T17:00:00+01:00",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "1.87"
+          },
+          {
+            "match": "Estoril vs Casa Pia",
+            "competition": "Liga Portugal",
+            "kickoff": "18:00 WAT",
+            "kickoff_iso": "2026-09-20T18:00:00+01:00",
+            "market": "1X2",
+            "pick": "Estoril Win",
+            "odds": "1.75"
+          },
+          {
+            "match": "Porto vs Benfica",
+            "competition": "Liga Portugal",
+            "kickoff": "20:30 WAT",
+            "kickoff_iso": "2026-09-20T20:30:00+01:00",
+            "market": "BTTS",
+            "pick": "Both Teams to Score - Yes",
+            "odds": "1.72"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Barcelona vs Athletic Club",
+        "match": "Atletico Madrid vs Real Madrid",
         "competition": "La Liga",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-08-27T20:00:00+01:00",
-        "market": "Over/Under",
-        "pick": "Over 2.5 Goals",
-        "odds": "1.43"
+        "kickoff": "15:15 WAT",
+        "kickoff_iso": "2026-09-20T15:15:00+01:00",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "1.52"
       },
       {
-        "match": "Chelsea vs Luton Town",
-        "competition": "Carabao Cup",
-        "kickoff": "19:30 WAT",
-        "kickoff_iso": "2026-08-27T19:30:00+01:00",
+        "match": "Villarreal vs Levante",
+        "competition": "La Liga",
+        "kickoff": "17:30 WAT",
+        "kickoff_iso": "2026-09-20T17:30:00+01:00",
         "market": "1X2",
-        "pick": "Chelsea Win",
-        "odds": "1.15"
+        "pick": "Villarreal Win",
+        "odds": "1.54"
       },
       {
-        "match": "Fulham vs AFC Wimbledon",
-        "competition": "Carabao Cup",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-08-27T20:00:00+01:00",
+        "match": "Juventus vs Atalanta",
+        "competition": "Serie A",
+        "kickoff": "17:00 WAT",
+        "kickoff_iso": "2026-09-20T17:00:00+01:00",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "1.87"
+      },
+      {
+        "match": "Porto vs Benfica",
+        "competition": "Liga Portugal",
+        "kickoff": "20:30 WAT",
+        "kickoff_iso": "2026-09-20T20:30:00+01:00",
+        "market": "BTTS",
+        "pick": "Both Teams to Score - Yes",
+        "odds": "1.72"
+      },
+      {
+        "match": "Marseille vs PSG",
+        "competition": "Ligue 1",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-09-20T19:45:00+01:00",
         "market": "1X2",
-        "pick": "Fulham Win",
-        "odds": "1.15"
+        "pick": "PSG Win",
+        "odds": "1.48"
+      },
+      {
+        "match": "Club Brugge vs Genk",
+        "competition": "Belgium Pro League",
+        "kickoff": "17:30 WAT",
+        "kickoff_iso": "2026-09-20T17:30:00+01:00",
+        "market": "1X2",
+        "pick": "Club Brugge Win",
+        "odds": "1.61"
+      },
+      {
+        "match": "Flamengo vs Bragantino",
+        "competition": "Brasileirao Serie A",
+        "kickoff": "22:30 WAT",
+        "kickoff_iso": "2026-09-20T22:30:00+01:00",
+        "market": "1X2",
+        "pick": "Flamengo Win",
+        "odds": "1.36"
+      },
+      {
+        "match": "Fenerbahce vs Eyupspor",
+        "competition": "Turkiye Super Lig",
+        "kickoff": "15:00 WAT",
+        "kickoff_iso": "2026-09-20T15:00:00+01:00",
+        "market": "1X2",
+        "pick": "Fenerbahce Win",
+        "odds": "1.22"
+      },
+      {
+        "match": "AC Milan vs Lecce",
+        "competition": "Serie A",
+        "kickoff": "19:45 WAT",
+        "kickoff_iso": "2026-09-20T19:45:00+01:00",
+        "market": "1X2",
+        "pick": "AC Milan Win",
+        "odds": "1.27"
+      },
+      {
+        "match": "Nice vs Lille",
+        "competition": "Ligue 1",
+        "kickoff": "16:15 WAT",
+        "kickoff_iso": "2026-09-20T16:15:00+01:00",
+        "market": "1X2",
+        "pick": "Lille Win",
+        "odds": "2.25"
+      },
+      {
+        "match": "Vitoria Guimaraes vs Moreirense",
+        "competition": "Liga Portugal",
+        "kickoff": "15:30 WAT",
+        "kickoff_iso": "2026-09-20T15:30:00+01:00",
+        "market": "1X2",
+        "pick": "Vitoria Guimaraes Win",
+        "odds": "1.47"
+      },
+      {
+        "match": "Deportivo vs Real Betis",
+        "competition": "La Liga",
+        "kickoff": "17:30 WAT",
+        "kickoff_iso": "2026-09-20T17:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Real Betis or Draw (X2)",
+        "odds": "1.30"
+      },
+      {
+        "match": "Paderborn vs Hoffenheim",
+        "competition": "Bundesliga",
+        "kickoff": "18:30 WAT",
+        "kickoff_iso": "2026-09-20T18:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Hoffenheim or Draw (X2)",
+        "odds": "1.24"
+      },
+      {
+        "match": "Estoril vs Casa Pia",
+        "competition": "Liga Portugal",
+        "kickoff": "18:00 WAT",
+        "kickoff_iso": "2026-09-20T18:00:00+01:00",
+        "market": "1X2",
+        "pick": "Estoril Win",
+        "odds": "1.75"
+      },
+      {
+        "match": "Brann vs Bodo/Glimt",
+        "competition": "Norway Eliteserien",
+        "kickoff": "18:15 WAT",
+        "kickoff_iso": "2026-09-20T18:15:00+01:00",
+        "market": "1X2",
+        "pick": "Bodo/Glimt Win",
+        "odds": "1.60"
+      },
+      {
+        "match": "Slavia Prague vs Viktoria Plzen",
+        "competition": "Czechia 1. Liga",
+        "kickoff": "17:00 WAT",
+        "kickoff_iso": "2026-09-20T17:00:00+01:00",
+        "market": "1X2",
+        "pick": "Slavia Prague Win",
+        "odds": "1.55"
       }
     ]
   },
   "history": [
     {
-      "date": "2026-08-26",
-      "notes": [
-        "7-Day Rollover (WON) — Newcastle Win & Over 1.5: Newcastle trailed 1-1 at the break but Harvey Barnes's second-half brace sealed a 3-2 win over West Brom; the win-and-goals read held up despite needing a fightback.",
-        "Boost Slip (LOST) — Tottenham Over 3.5 landed comfortably (5-1 vs Charlton, Savio scoring on his debut). Rapid Vienna Win did not: the tie finished level 2-2 in normal time before Hearts won on penalties. The pick assumed home advantage would be enough for an outright win, but Rapid was only a ~54% market favorite pre-match, not a genuine mismatch — underweighting how tight this fixture actually was.",
-        "Bet of the Day (LOST) — Real Madrid BTTS Yes landed (4-1 win over Real Sociedad, Mbappé hat-trick). AEK Athens BTTS Yes did not: AEK won 4-0 at home, a one-sided scoreline that shut Levski out completely — the read overestimated how much the away underdog would threaten against a stronger side.",
-        "Pattern watch: the Rapid Vienna miss is a SECOND occurrence of 'favorite assumed to win/score more than a genuinely tight fixture allowed' (first flagged 23 Aug on the South American slate). Two occurrences within the ~2-week review window means this is now being treated as a live pattern rather than a one-off. Corrective action: straight 1X2 win picks stay dropped by default going forward (already the standing rule) — a market-implied 'favorite' tag (e.g. Rapid at ~54%) is not the same as a genuine mismatch, and Double Chance/Draw No Bet should be used instead whenever the gap isn't overwhelming.",
-        "Market watch (Step 1c): across all resolved legs in history to date, straight 1X2 Win picks are now 2-for-7 (28.6% — Atlanta United and Independiente del Valle won; Pachuca, São Paulo, Santos, Corinthians and now Rapid Vienna lost), confirming the standing 'drop 1X2 by default' rule is earning its keep. Separately, BTTS Yes sits at 5-for-6 (83% — Cruzeiro, Monterrey, Atlanta, San Luis-Pachuca and Real Madrid all won; only AEK–Levski lost). That's a strong on-paper record, but BTTS (both Yes and No) stays dropped per the explicit standing rule set after prior real losses — the sample is still small and the rule was a deliberate correction, not something this single day's data should reverse."
-      ],
-      "slips": [
-        {
-          "name": "7-Day Rollover",
-          "status": "won",
-          "combined_odds": "1.55",
-          "legs": [
-            {
-              "match": "Newcastle United vs West Bromwich Albion",
-              "pick": "Newcastle United Win & Over 1.5 Goals",
-              "status": "won",
-              "score": "3-2"
-            }
-          ]
-        },
-        {
-          "name": "Boost Slip",
-          "status": "lost",
-          "combined_odds": "2.96",
-          "legs": [
-            {
-              "match": "Tottenham Hotspur vs Charlton Athletic",
-              "pick": "Over 3.5 Goals",
-              "status": "won",
-              "score": "5-1"
-            },
-            {
-              "match": "Rapid Vienna vs Hearts",
-              "pick": "Rapid Vienna Win",
-              "status": "lost",
-              "score": "2-2 (Hearts won 4-3 on penalties)"
-            }
-          ]
-        },
-        {
-          "name": "Bet of the Day",
-          "status": "lost",
-          "combined_odds": "3.94",
-          "legs": [
-            {
-              "match": "Real Madrid vs Real Sociedad",
-              "pick": "Both Teams to Score - Yes",
-              "status": "won",
-              "score": "4-1"
-            },
-            {
-              "match": "AEK Athens vs Levski Sofia",
-              "pick": "Both Teams to Score - Yes",
-              "status": "lost",
-              "score": "4-0"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-08-25",
       "notes": [
-        "7-Day Rollover (WON) — BTTS Yes on Cruzeiro vs Atlético Mineiro: both traded second-half goals in the Copa do Brasil clássico mineiro (1-1); the read that this tight derby would still produce goals at both ends held up.",
+        "7-Day Rollover (WON) — BTTS Yes on Cruzeiro vs Atletico Mineiro: both traded second-half goals in the Copa do Brasil classico mineiro (1-1); the read that this tight derby would still produce goals at both ends held up.",
         "Boost Slip (WON) — Independiente del Valle Win: their home form and 1-0 aggregate cushion from the first leg proved decisive, closing out Deportes Tolima 3-1 to reach the Libertadores quarter-finals. Monterrey BTTS Yes: both sides' attacking quality showed in a 2-1 Monterrey win over Chicago Fire in the Leagues Cup, with Chicago's response goal confirming the read.",
         "Market watch: BTTS Yes is now 4-for-4 across the two logged days so far (two legs on Aug 23, two on Aug 25). Still under the 5-use sample needed before actively favoring it per the standing guardrail, but trending strongly — worth a closer look once it clears that threshold.",
         "Pattern watch: no repeat of the Aug 23 'favorite assumed to win/score more than a genuinely tight fixture allowed' pattern on Aug 25 — all three matches produced clear-cut winners or a high-scoring draw, so no corrective action needed today.",
-        "Note: Aug 24 has no recorded results — the site's daily run was not triggered that day, so that day is a gap in the track record rather than a loss or a win."
+        "Note: Aug 24 has no recorded results — the site's daily run was not triggered that day, so that day is a gap in the track record rather than a loss or a win.",
+        "Note: no daily run was triggered between Aug 27 and Sep 19 — the Aug 26 slips were never resolved and this is a gap in the track record, not a loss or a win. Sep 20 resumes the log."
       ],
       "slips": [
         {
@@ -160,7 +356,7 @@
           "combined_odds": "1.94",
           "legs": [
             {
-              "match": "Cruzeiro vs Atlético Mineiro",
+              "match": "Cruzeiro vs Atletico Mineiro",
               "pick": "BTTS - Yes",
               "status": "won",
               "score": "1-1"
@@ -193,7 +389,7 @@
       "notes": [
         "7-Day Rollover (WON) — Atlanta United Win: beat Sporting KC 2-1, extending a 3-match win streak; home-form read held up, no correction needed.",
         "Boost Slip (LOST) — Pachuca Win: San Luis held a disciplined low block at home, finished 1-1; San Luis's home resilience in a historically tight fixture (19 previous meetings) was underweighted vs Pachuca's away reputation.",
-        "Bet of the Day (LOST) — São Paulo Win: lost 0-1 at Chapecoense; their winless run away under Dorival Júnior was underweighted against reputation. BTTS No (Coritiba-Corinthians): Corinthians scored late in a 2-1 loss, so BTTS actually landed Yes — their late set-piece/header threat was underweighted.",
+        "Bet of the Day (LOST) — Sao Paulo Win: lost 0-1 at Chapecoense; their winless run away under Dorival Junior was underweighted against reputation. BTTS No (Coritiba-Corinthians): Corinthians scored late in a 2-1 loss, so BTTS actually landed Yes — their late set-piece/header threat was underweighted.",
         "Power 5 (LOST) — Santos Win: only 1-1 vs Mirassol despite a rest advantage; Mirassol's away resilience was underweighted. Corinthians Win: lost 2-1 to Coritiba (same late-goal threat noted above). Over 2.5 (San Luis-Pachuca): finished 1-1 — match tightened defensively rather than staying open.",
         "Moonshot (LOST) — 3 of 4 legs won (Atlanta BTTS Yes, San Luis-Pachuca BTTS Yes, Racing-Boca Draw); broken by Over 2.5 on Santos-Mirassol (finished 1-1).",
         "Pattern watch: 3 of 6 matches finished level (San Luis-Pachuca, Santos-Mirassol, Racing-Boca all 1-1) — a notably high draw/low-scoring rate, and two legs assumed a mid-table home favorite would win/score more comfortably than they did. First logged day — recorded as an observation, not yet acted on per the standing guardrail. Re-check over the next ~2 weeks for a repeat of 'favorite assumed to win/score more than expected in a genuinely tight fixture' before treating it as a real pattern."
@@ -218,7 +414,7 @@
           "combined_odds": "2.10",
           "legs": [
             {
-              "match": "Atlético San Luis vs Pachuca",
+              "match": "Atletico San Luis vs Pachuca",
               "pick": "Pachuca Win",
               "status": "lost",
               "score": "1-1"
@@ -231,8 +427,8 @@
           "combined_odds": "4.16",
           "legs": [
             {
-              "match": "Chapecoense vs São Paulo",
-              "pick": "São Paulo Win",
+              "match": "Chapecoense vs Sao Paulo",
+              "pick": "Sao Paulo Win",
               "status": "lost",
               "score": "1-0"
             },
@@ -262,7 +458,7 @@
               "score": "2-1"
             },
             {
-              "match": "Atlético San Luis vs Pachuca",
+              "match": "Atletico San Luis vs Pachuca",
               "pick": "Over 2.5 Goals",
               "status": "lost",
               "score": "1-1"
@@ -281,7 +477,7 @@
               "score": "2-1"
             },
             {
-              "match": "Atlético San Luis vs Pachuca",
+              "match": "Atletico San Luis vs Pachuca",
               "pick": "BTTS - Yes",
               "status": "won",
               "score": "1-1"
