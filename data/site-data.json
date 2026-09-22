@@ -1,344 +1,434 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-09-20T14:42:00+01:00"
+    "updated": "2026-09-22T20:51:00+01:00"
   },
   "today": {
-    "date": "2026-09-20",
+    "date": "2026-09-22",
     "slips": [
       {
         "id": "rollover",
         "name": "7-Day Rollover",
-        "combined_odds": "1.52",
+        "combined_odds": "1.67",
         "status": "pending",
         "legs": [
           {
-            "match": "Atletico Madrid vs Real Madrid",
-            "competition": "La Liga",
-            "kickoff": "15:15 WAT",
-            "kickoff_iso": "2026-09-20T15:15:00+01:00",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.52"
+            "match": "Gamba Osaka vs Tokushima Vortis",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
+            "market": "1X2",
+            "pick": "Gamba Osaka Win",
+            "odds": "1.67"
           }
         ]
       },
       {
         "id": "boost",
         "name": "Boost Slip",
-        "combined_odds": "2.03",
+        "combined_odds": "2.04",
         "status": "pending",
         "legs": [
           {
-            "match": "Brann vs Bodo/Glimt",
-            "competition": "Norway Eliteserien",
-            "kickoff": "18:15 WAT",
-            "kickoff_iso": "2026-09-20T18:15:00+01:00",
+            "match": "Vissel Kobe vs Sagan Tosu",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
             "market": "1X2",
-            "pick": "Bodo/Glimt Win",
-            "odds": "1.60"
+            "pick": "Vissel Kobe Win",
+            "odds": "1.48"
           },
           {
-            "match": "AC Milan vs Lecce",
-            "competition": "Serie A",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-09-20T19:45:00+01:00",
+            "match": "Machida Zelvia vs Tochigi City",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
             "market": "1X2",
-            "pick": "AC Milan Win",
-            "odds": "1.27"
+            "pick": "Machida Zelvia Win",
+            "odds": "1.38"
           }
         ]
       },
       {
         "id": "bod",
         "name": "Bet of the Day",
-        "combined_odds": "3.04",
+        "combined_odds": "3.40",
         "status": "pending",
         "legs": [
           {
-            "match": "Slavia Prague vs Viktoria Plzen",
-            "competition": "Czechia 1. Liga",
-            "kickoff": "17:00 WAT",
-            "kickoff_iso": "2026-09-20T17:00:00+01:00",
+            "match": "Independiente Medellin vs Jaguares de Cordoba",
+            "competition": "Colombia Primera A",
+            "kickoff": "00:00 WAT",
+            "kickoff_iso": "2026-09-23T00:00:00+01:00",
             "market": "1X2",
-            "pick": "Slavia Prague Win",
-            "odds": "1.55"
+            "pick": "Independiente Medellin Win",
+            "odds": "1.32"
           },
           {
-            "match": "Club Brugge vs Genk",
-            "competition": "Belgium Pro League",
-            "kickoff": "17:30 WAT",
-            "kickoff_iso": "2026-09-20T17:30:00+01:00",
-            "market": "1X2",
-            "pick": "Club Brugge Win",
-            "odds": "1.61"
+            "match": "Nacional Potosi vs Real Potosi",
+            "competition": "Copa Bolivia",
+            "kickoff": "00:00 WAT",
+            "kickoff_iso": "2026-09-23T00:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "Nacional Potosi or Draw (1X)",
+            "odds": "1.31"
           },
           {
-            "match": "Fenerbahce vs Eyupspor",
-            "competition": "Turkiye Super Lig",
-            "kickoff": "15:00 WAT",
-            "kickoff_iso": "2026-09-20T15:00:00+01:00",
+            "match": "Cobreloa vs Coquimbo Unido",
+            "competition": "Copa Chile",
+            "kickoff": "00:30 WAT",
+            "kickoff_iso": "2026-09-23T00:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "Coquimbo Unido or Draw (X2)",
+            "odds": "1.30"
+          },
+          {
+            "match": "Independiente Santa Fe vs Deportivo Cali",
+            "competition": "Colombia Primera A",
+            "kickoff": "02:00 WAT",
+            "kickoff_iso": "2026-09-23T02:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "Santa Fe or Draw (1X)",
+            "odds": "1.28"
+          },
+          {
+            "match": "Kashiwa Reysol vs FC Imabari",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
             "market": "1X2",
-            "pick": "Fenerbahce Win",
-            "odds": "1.22"
+            "pick": "Kashiwa Reysol Win",
+            "odds": "1.18"
           }
         ]
       },
       {
         "id": "power5",
         "name": "Power 5",
-        "combined_odds": "7.35",
+        "combined_odds": "7.09",
         "status": "pending",
         "legs": [
           {
-            "match": "Villarreal vs Levante",
-            "competition": "La Liga",
-            "kickoff": "17:30 WAT",
-            "kickoff_iso": "2026-09-20T17:30:00+01:00",
+            "match": "Kashima Antlers vs Ventforet Kofu",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
             "market": "1X2",
-            "pick": "Villarreal Win",
-            "odds": "1.54"
+            "pick": "Kashima Antlers Win",
+            "odds": "1.27"
           },
           {
-            "match": "Marseille vs PSG",
-            "competition": "Ligue 1",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-09-20T19:45:00+01:00",
+            "match": "Audax Italiano vs Colo-Colo",
+            "competition": "Copa Chile",
+            "kickoff": "00:30 WAT",
+            "kickoff_iso": "2026-09-23T00:30:00+01:00",
             "market": "1X2",
-            "pick": "PSG Win",
-            "odds": "1.48"
+            "pick": "Colo-Colo Win",
+            "odds": "1.78"
           },
           {
-            "match": "Flamengo vs Bragantino",
-            "competition": "Brasileirao Serie A",
-            "kickoff": "22:30 WAT",
-            "kickoff_iso": "2026-09-20T22:30:00+01:00",
+            "match": "Puerto Montt vs Nublense",
+            "competition": "Copa Chile",
+            "kickoff": "22:00 WAT",
+            "kickoff_iso": "2026-09-22T22:00:00+01:00",
             "market": "1X2",
-            "pick": "Flamengo Win",
-            "odds": "1.36"
+            "pick": "Nublense Win",
+            "odds": "1.89"
           },
           {
-            "match": "Vitoria Guimaraes vs Moreirense",
-            "competition": "Liga Portugal",
-            "kickoff": "15:30 WAT",
-            "kickoff_iso": "2026-09-20T15:30:00+01:00",
-            "market": "1X2",
-            "pick": "Vitoria Guimaraes Win",
-            "odds": "1.47"
-          },
-          {
-            "match": "Deportivo vs Real Betis",
-            "competition": "La Liga",
-            "kickoff": "17:30 WAT",
-            "kickoff_iso": "2026-09-20T17:30:00+01:00",
+            "match": "Criciuma vs Operario Ferroviario",
+            "competition": "Brazil Serie B",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-09-22T23:30:00+01:00",
             "market": "Double Chance",
-            "pick": "Real Betis or Draw (X2)",
-            "odds": "1.30"
-          },
-          {
-            "match": "Paderborn vs Hoffenheim",
-            "competition": "Bundesliga",
-            "kickoff": "18:30 WAT",
-            "kickoff_iso": "2026-09-20T18:30:00+01:00",
-            "market": "Double Chance",
-            "pick": "Hoffenheim or Draw (X2)",
-            "odds": "1.24"
+            "pick": "Operario Ferroviario or Draw (X2)",
+            "odds": "1.66"
           }
         ]
       },
       {
         "id": "moonshot",
         "name": "Moonshot",
-        "combined_odds": "12.66",
+        "combined_odds": "4.75",
         "status": "pending",
         "legs": [
           {
-            "match": "Nice vs Lille",
-            "competition": "Ligue 1",
-            "kickoff": "16:15 WAT",
-            "kickoff_iso": "2026-09-20T16:15:00+01:00",
+            "match": "Kyoto Sanga vs Fujieda MYFC",
+            "competition": "Japan Emperor Cup",
+            "kickoff": "09:00 WAT",
+            "kickoff_iso": "2026-09-23T09:00:00+01:00",
             "market": "1X2",
-            "pick": "Lille Win",
-            "odds": "2.25"
-          },
-          {
-            "match": "Juventus vs Atalanta",
-            "competition": "Serie A",
-            "kickoff": "17:00 WAT",
-            "kickoff_iso": "2026-09-20T17:00:00+01:00",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.87"
-          },
-          {
-            "match": "Estoril vs Casa Pia",
-            "competition": "Liga Portugal",
-            "kickoff": "18:00 WAT",
-            "kickoff_iso": "2026-09-20T18:00:00+01:00",
-            "market": "1X2",
-            "pick": "Estoril Win",
-            "odds": "1.75"
-          },
-          {
-            "match": "Porto vs Benfica",
-            "competition": "Liga Portugal",
-            "kickoff": "20:30 WAT",
-            "kickoff_iso": "2026-09-20T20:30:00+01:00",
-            "market": "BTTS",
-            "pick": "Both Teams to Score - Yes",
-            "odds": "1.72"
+            "pick": "Fujieda MYFC Win",
+            "odds": "4.75"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "Atletico Madrid vs Real Madrid",
-        "competition": "La Liga",
-        "kickoff": "15:15 WAT",
-        "kickoff_iso": "2026-09-20T15:15:00+01:00",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.52"
-      },
-      {
-        "match": "Villarreal vs Levante",
-        "competition": "La Liga",
-        "kickoff": "17:30 WAT",
-        "kickoff_iso": "2026-09-20T17:30:00+01:00",
+        "match": "Vissel Kobe vs Sagan Tosu",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
         "market": "1X2",
-        "pick": "Villarreal Win",
-        "odds": "1.54"
-      },
-      {
-        "match": "Juventus vs Atalanta",
-        "competition": "Serie A",
-        "kickoff": "17:00 WAT",
-        "kickoff_iso": "2026-09-20T17:00:00+01:00",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.87"
-      },
-      {
-        "match": "Porto vs Benfica",
-        "competition": "Liga Portugal",
-        "kickoff": "20:30 WAT",
-        "kickoff_iso": "2026-09-20T20:30:00+01:00",
-        "market": "BTTS",
-        "pick": "Both Teams to Score - Yes",
-        "odds": "1.72"
-      },
-      {
-        "match": "Marseille vs PSG",
-        "competition": "Ligue 1",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-09-20T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "PSG Win",
+        "pick": "Vissel Kobe Win",
         "odds": "1.48"
       },
       {
-        "match": "Club Brugge vs Genk",
-        "competition": "Belgium Pro League",
-        "kickoff": "17:30 WAT",
-        "kickoff_iso": "2026-09-20T17:30:00+01:00",
+        "match": "Kashima Antlers vs Ventforet Kofu",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
         "market": "1X2",
-        "pick": "Club Brugge Win",
-        "odds": "1.61"
-      },
-      {
-        "match": "Flamengo vs Bragantino",
-        "competition": "Brasileirao Serie A",
-        "kickoff": "22:30 WAT",
-        "kickoff_iso": "2026-09-20T22:30:00+01:00",
-        "market": "1X2",
-        "pick": "Flamengo Win",
-        "odds": "1.36"
-      },
-      {
-        "match": "Fenerbahce vs Eyupspor",
-        "competition": "Turkiye Super Lig",
-        "kickoff": "15:00 WAT",
-        "kickoff_iso": "2026-09-20T15:00:00+01:00",
-        "market": "1X2",
-        "pick": "Fenerbahce Win",
-        "odds": "1.22"
-      },
-      {
-        "match": "AC Milan vs Lecce",
-        "competition": "Serie A",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-09-20T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "AC Milan Win",
+        "pick": "Kashima Antlers Win",
         "odds": "1.27"
       },
       {
-        "match": "Nice vs Lille",
-        "competition": "Ligue 1",
-        "kickoff": "16:15 WAT",
-        "kickoff_iso": "2026-09-20T16:15:00+01:00",
+        "match": "Gamba Osaka vs Tokushima Vortis",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
         "market": "1X2",
-        "pick": "Lille Win",
-        "odds": "2.25"
+        "pick": "Gamba Osaka Win",
+        "odds": "1.67"
       },
       {
-        "match": "Vitoria Guimaraes vs Moreirense",
-        "competition": "Liga Portugal",
-        "kickoff": "15:30 WAT",
-        "kickoff_iso": "2026-09-20T15:30:00+01:00",
+        "match": "Kashiwa Reysol vs FC Imabari",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
         "market": "1X2",
-        "pick": "Vitoria Guimaraes Win",
-        "odds": "1.47"
+        "pick": "Kashiwa Reysol Win",
+        "odds": "1.18"
       },
       {
-        "match": "Deportivo vs Real Betis",
-        "competition": "La Liga",
-        "kickoff": "17:30 WAT",
-        "kickoff_iso": "2026-09-20T17:30:00+01:00",
+        "match": "Kyoto Sanga vs Fujieda MYFC",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
+        "market": "1X2",
+        "pick": "Fujieda MYFC Win",
+        "odds": "4.75"
+      },
+      {
+        "match": "Machida Zelvia vs Tochigi City",
+        "competition": "Japan Emperor Cup",
+        "kickoff": "09:00 WAT",
+        "kickoff_iso": "2026-09-23T09:00:00+01:00",
+        "market": "1X2",
+        "pick": "Machida Zelvia Win",
+        "odds": "1.38"
+      },
+      {
+        "match": "Independiente Medellin vs Jaguares de Cordoba",
+        "competition": "Colombia Primera A",
+        "kickoff": "00:00 WAT",
+        "kickoff_iso": "2026-09-23T00:00:00+01:00",
+        "market": "1X2",
+        "pick": "Independiente Medellin Win",
+        "odds": "1.32"
+      },
+      {
+        "match": "Independiente Santa Fe vs Deportivo Cali",
+        "competition": "Colombia Primera A",
+        "kickoff": "02:00 WAT",
+        "kickoff_iso": "2026-09-23T02:00:00+01:00",
         "market": "Double Chance",
-        "pick": "Real Betis or Draw (X2)",
+        "pick": "Santa Fe or Draw (1X)",
+        "odds": "1.28"
+      },
+      {
+        "match": "Audax Italiano vs Colo-Colo",
+        "competition": "Copa Chile",
+        "kickoff": "00:30 WAT",
+        "kickoff_iso": "2026-09-23T00:30:00+01:00",
+        "market": "1X2",
+        "pick": "Colo-Colo Win",
+        "odds": "1.78"
+      },
+      {
+        "match": "Cobreloa vs Coquimbo Unido",
+        "competition": "Copa Chile",
+        "kickoff": "00:30 WAT",
+        "kickoff_iso": "2026-09-23T00:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Coquimbo Unido or Draw (X2)",
         "odds": "1.30"
       },
       {
-        "match": "Paderborn vs Hoffenheim",
-        "competition": "Bundesliga",
-        "kickoff": "18:30 WAT",
-        "kickoff_iso": "2026-09-20T18:30:00+01:00",
+        "match": "Puerto Montt vs Nublense",
+        "competition": "Copa Chile",
+        "kickoff": "22:00 WAT",
+        "kickoff_iso": "2026-09-22T22:00:00+01:00",
+        "market": "1X2",
+        "pick": "Nublense Win",
+        "odds": "1.89"
+      },
+      {
+        "match": "Nacional Potosi vs Real Potosi",
+        "competition": "Copa Bolivia",
+        "kickoff": "00:00 WAT",
+        "kickoff_iso": "2026-09-23T00:00:00+01:00",
         "market": "Double Chance",
-        "pick": "Hoffenheim or Draw (X2)",
-        "odds": "1.24"
+        "pick": "Nacional Potosi or Draw (1X)",
+        "odds": "1.31"
       },
       {
-        "match": "Estoril vs Casa Pia",
-        "competition": "Liga Portugal",
-        "kickoff": "18:00 WAT",
-        "kickoff_iso": "2026-09-20T18:00:00+01:00",
-        "market": "1X2",
-        "pick": "Estoril Win",
-        "odds": "1.75"
-      },
-      {
-        "match": "Brann vs Bodo/Glimt",
-        "competition": "Norway Eliteserien",
-        "kickoff": "18:15 WAT",
-        "kickoff_iso": "2026-09-20T18:15:00+01:00",
-        "market": "1X2",
-        "pick": "Bodo/Glimt Win",
-        "odds": "1.60"
-      },
-      {
-        "match": "Slavia Prague vs Viktoria Plzen",
-        "competition": "Czechia 1. Liga",
-        "kickoff": "17:00 WAT",
-        "kickoff_iso": "2026-09-20T17:00:00+01:00",
-        "market": "1X2",
-        "pick": "Slavia Prague Win",
-        "odds": "1.55"
+        "match": "Criciuma vs Operario Ferroviario",
+        "competition": "Brazil Serie B",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-09-22T23:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Operario Ferroviario or Draw (X2)",
+        "odds": "1.66"
       }
     ]
   },
   "history": [
+    {
+      "date": "2026-09-20",
+      "notes": [
+        "7-Day Rollover (WON) — BTTS Yes on Atletico Madrid vs Real Madrid: both scored in a red-card-affected 2-1 derby, exactly the tight, end-to-end game the read expected.",
+        "Boost Slip (LOST) — Bodo/Glimt Win: lost 2-1 away to bottom-half Brann despite topping the table; a thin pre-match gap (Bodo 42% vs Brann 36% win probability) got backed as a safe favorite when it wasn't. AC Milan Win landed as expected (3-0).",
+        "Bet of the Day (WON) — Slavia Prague, Club Brugge and Fenerbahce all won comfortably as home favorites; no surprises across the slip.",
+        "Power 5 (LOST) — Villarreal, PSG and Flamengo landed as picked. Vitoria Guimaraes Win failed to a 90+6' equalizer from Moreirense — Guimaraes' worst start in 15 years was underweighted against a home-draw risk; Double Chance would have covered it. Hoffenheim/Draw (X2) failed outright as newly-promoted, winless Paderborn beat Hoffenheim 3-1, a genuine shock with no form signal pointing that way.",
+        "Moonshot (LOST) — Lille Win failed as bottom-table Nice ended their unbeaten start 2-1; Juventus BTTS Yes failed as Atalanta were shut out 2-0 away, their away scoring form didn't support the pick; Estoril Win failed as bottom-table Casa Pia won 2-1 away. Only the Porto BTTS Yes leg landed (3-1).",
+        "Pattern watch: 5 of 6 losing legs across the day fit 'favorite or home side assumed to win comfortably, lower-table/out-of-form side upset them instead' — Brann over Bodo/Glimt, Moreirense's stoppage-time leveler, Paderborn over Hoffenheim, Casa Pia over Estoril, Nice over Lille. This echoes the Aug 23 pattern note and recurred strongly enough to weight today's picks toward Double Chance on shaky favorites (Santa Fe, Nacional Potosi, Coquimbo Unido, Operario Ferroviario)."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "combined_odds": "1.52",
+          "legs": [
+            {
+              "match": "Atletico Madrid vs Real Madrid",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "lost",
+          "combined_odds": "2.03",
+          "legs": [
+            {
+              "match": "Brann vs Bodo/Glimt",
+              "pick": "Bodo/Glimt Win",
+              "status": "lost",
+              "score": "2-1"
+            },
+            {
+              "match": "AC Milan vs Lecce",
+              "pick": "AC Milan Win",
+              "status": "won",
+              "score": "3-0"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "won",
+          "combined_odds": "3.04",
+          "legs": [
+            {
+              "match": "Slavia Prague vs Viktoria Plzen",
+              "pick": "Slavia Prague Win",
+              "status": "won",
+              "score": "2-1"
+            },
+            {
+              "match": "Club Brugge vs Genk",
+              "pick": "Club Brugge Win",
+              "status": "won",
+              "score": "3-0"
+            },
+            {
+              "match": "Fenerbahce vs Eyupspor",
+              "pick": "Fenerbahce Win",
+              "status": "won",
+              "score": "8-0"
+            }
+          ]
+        },
+        {
+          "name": "Power 5",
+          "status": "lost",
+          "combined_odds": "7.35",
+          "legs": [
+            {
+              "match": "Villarreal vs Levante",
+              "pick": "Villarreal Win",
+              "status": "won",
+              "score": "3-1"
+            },
+            {
+              "match": "Marseille vs PSG",
+              "pick": "PSG Win",
+              "status": "won",
+              "score": "1-2"
+            },
+            {
+              "match": "Flamengo vs Bragantino",
+              "pick": "Flamengo Win",
+              "status": "won",
+              "score": "2-1"
+            },
+            {
+              "match": "Vitoria Guimaraes vs Moreirense",
+              "pick": "Vitoria Guimaraes Win",
+              "status": "lost",
+              "score": "1-1"
+            },
+            {
+              "match": "Deportivo vs Real Betis",
+              "pick": "Real Betis or Draw (X2)",
+              "status": "won",
+              "score": "1-1"
+            },
+            {
+              "match": "Paderborn vs Hoffenheim",
+              "pick": "Hoffenheim or Draw (X2)",
+              "status": "lost",
+              "score": "3-1"
+            }
+          ]
+        },
+        {
+          "name": "Moonshot",
+          "status": "lost",
+          "combined_odds": "12.66",
+          "legs": [
+            {
+              "match": "Nice vs Lille",
+              "pick": "Lille Win",
+              "status": "lost",
+              "score": "2-1"
+            },
+            {
+              "match": "Juventus vs Atalanta",
+              "pick": "BTTS - Yes",
+              "status": "lost",
+              "score": "2-0"
+            },
+            {
+              "match": "Estoril vs Casa Pia",
+              "pick": "Estoril Win",
+              "status": "lost",
+              "score": "1-2"
+            },
+            {
+              "match": "Porto vs Benfica",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "3-1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "notes": [
@@ -448,55 +538,4 @@
             {
               "match": "Santos vs Mirassol",
               "pick": "Santos Win",
-              "status": "lost",
-              "score": "1-1"
-            },
-            {
-              "match": "Coritiba vs Corinthians",
-              "pick": "Corinthians Win",
-              "status": "lost",
-              "score": "2-1"
-            },
-            {
-              "match": "Atletico San Luis vs Pachuca",
-              "pick": "Over 2.5 Goals",
-              "status": "lost",
-              "score": "1-1"
-            }
-          ]
-        },
-        {
-          "name": "Moonshot",
-          "status": "lost",
-          "combined_odds": "15.10",
-          "legs": [
-            {
-              "match": "Atlanta United vs Sporting Kansas City",
-              "pick": "BTTS - Yes",
-              "status": "won",
-              "score": "2-1"
-            },
-            {
-              "match": "Atletico San Luis vs Pachuca",
-              "pick": "BTTS - Yes",
-              "status": "won",
-              "score": "1-1"
-            },
-            {
-              "match": "Santos vs Mirassol",
-              "pick": "Over 2.5 Goals",
-              "status": "lost",
-              "score": "1-1"
-            },
-            {
-              "match": "Racing Club vs Boca Juniors",
-              "pick": "Draw",
-              "status": "won",
-              "score": "1-1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+              "status": "lost"
