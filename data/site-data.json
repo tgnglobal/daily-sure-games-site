@@ -538,4 +538,55 @@
             {
               "match": "Santos vs Mirassol",
               "pick": "Santos Win",
-              "status": "lost"
+              "status": "lost",
+              "score": "1-1"
+            },
+            {
+              "match": "Coritiba vs Corinthians",
+              "pick": "Corinthians Win",
+              "status": "lost",
+              "score": "2-1"
+            },
+            {
+              "match": "Atletico San Luis vs Pachuca",
+              "pick": "Over 2.5 Goals",
+              "status": "lost",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Moonshot",
+          "status": "lost",
+          "combined_odds": "15.10",
+          "legs": [
+            {
+              "match": "Atlanta United vs Sporting Kansas City",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "2-1"
+            },
+            {
+              "match": "Atletico San Luis vs Pachuca",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "1-1"
+            },
+            {
+              "match": "Santos vs Mirassol",
+              "pick": "Over 2.5 Goals",
+              "status": "lost",
+              "score": "1-1"
+            },
+            {
+              "match": "Racing Club vs Boca Juniors",
+              "pick": "Draw",
+              "status": "won",
+              "score": "1-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
