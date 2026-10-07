@@ -1,247 +1,278 @@
 {
   "site": {
     "brand": "Daily Sure Games",
-    "updated": "2026-10-06T13:00:21+01:00"
+    "updated": "2026-10-07T08:39:32+01:00"
   },
   "today": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "slips": [
       {
         "id": "rollover",
         "name": "7-Day Rollover",
-        "combined_odds": "1.52",
+        "combined_odds": "1.68",
         "status": "pending",
         "legs": [
           {
-            "match": "AFC Wimbledon vs Barnet",
-            "competition": "England EFL Trophy",
-            "kickoff": "19:00 WAT",
-            "kickoff_iso": "2026-10-06T19:00:00+01:00",
+            "match": "Clube do Remo vs Gremio",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
             "market": "Double Chance",
-            "pick": "Draw or Barnet (X2)",
-            "odds": "1.52"
+            "pick": "Draw or Gremio (X2)",
+            "odds": "1.68"
           }
         ]
       },
       {
         "id": "boost",
         "name": "Boost Slip",
-        "combined_odds": "2.13",
+        "combined_odds": "2.19",
         "status": "pending",
         "legs": [
           {
-            "match": "Saudi Arabia vs United Arab Emirates",
-            "competition": "Arabian Gulf Cup Final",
-            "kickoff": "19:00 WAT",
-            "kickoff_iso": "2026-10-06T19:00:00+01:00",
+            "match": "Internacional vs Corinthians",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
             "market": "Double Chance",
-            "pick": "Draw or UAE (X2)",
-            "odds": "1.51"
+            "pick": "Draw or Corinthians (X2)",
+            "odds": "1.60"
           },
           {
-            "match": "Moldova vs Slovakia",
-            "competition": "UEFA Nations League C",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-10-06T19:45:00+01:00",
-            "market": "1X2",
-            "pick": "Slovakia Win",
-            "odds": "1.41"
+            "match": "Red Bull Bragantino vs Mirassol",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
+            "market": "Draw No Bet",
+            "pick": "Bragantino (DNB)",
+            "odds": "1.37"
           }
         ]
       },
       {
         "id": "bod",
         "name": "Bet of the Day",
-        "combined_odds": "3.29",
+        "combined_odds": "9.75",
         "status": "pending",
         "legs": [
           {
-            "match": "Scotland vs Slovenia",
-            "competition": "UEFA Nations League B",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-10-06T19:45:00+01:00",
+            "match": "Zamalek vs Zed FC",
+            "competition": "Egypt League Cup",
+            "kickoff": "18:00 WAT",
+            "kickoff_iso": "2026-10-07T18:00:00+01:00",
             "market": "Draw No Bet",
-            "pick": "Scotland (DNB)",
-            "odds": "1.33"
+            "pick": "Zamalek (DNB)",
+            "odds": "5.00"
           },
           {
-            "match": "Croatia vs Spain",
-            "competition": "UEFA Nations League A",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-10-06T19:45:00+01:00",
-            "market": "1X2",
-            "pick": "Spain Win",
-            "odds": "1.31"
+            "match": "CR Belouizdad vs USM Khenchela",
+            "competition": "Algeria Ligue 1",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-10-07T20:00:00+01:00",
+            "market": "Draw No Bet",
+            "pick": "Belouizdad (DNB)",
+            "odds": "1.16"
           },
           {
-            "match": "Belarus vs Finland",
-            "competition": "UEFA Nations League C",
-            "kickoff": "19:45 WAT",
-            "kickoff_iso": "2026-10-06T19:45:00+01:00",
+            "match": "CS Constantine vs US Biskra",
+            "competition": "Algeria Ligue 1",
+            "kickoff": "18:00 WAT",
+            "kickoff_iso": "2026-10-07T18:00:00+01:00",
             "market": "Double Chance",
-            "pick": "Draw or Finland (X2)",
-            "odds": "1.25"
+            "pick": "Constantine or Draw (1X)",
+            "odds": "1.13"
           },
           {
-            "match": "Alianza Atletico vs Sport Boys",
-            "competition": "Peru Copa de la Liga (SF 2nd leg)",
-            "kickoff": "21:00 WAT",
-            "kickoff_iso": "2026-10-06T21:00:00+01:00",
+            "match": "Antofagasta vs Universidad de Chile",
+            "competition": "Chile Copa Chile",
+            "kickoff": "23:00 WAT",
+            "kickoff_iso": "2026-10-07T23:00:00+01:00",
             "market": "Double Chance",
-            "pick": "Draw or Alianza Atletico (1X)",
+            "pick": "Draw or Universidad de Chile (X2)",
             "odds": "1.23"
           },
           {
-            "match": "Cambridge United vs Northampton Town",
-            "competition": "England EFL Trophy",
-            "kickoff": "19:00 WAT",
-            "kickoff_iso": "2026-10-06T19:00:00+01:00",
+            "match": "Urawa Red Diamonds vs RB Omiya Ardija",
+            "competition": "Japan Emperor's Cup",
+            "kickoff": "10:00 WAT",
+            "kickoff_iso": "2026-10-07T10:00:00+01:00",
             "market": "Double Chance",
-            "pick": "Draw or Cambridge United (1X)",
-            "odds": "1.23"
+            "pick": "Urawa or Draw (1X)",
+            "odds": "1.21"
           }
         ]
       }
     ],
     "all_picks": [
       {
-        "match": "AFC Wimbledon vs Barnet",
-        "competition": "England EFL Trophy",
-        "kickoff": "19:00 WAT",
-        "kickoff_iso": "2026-10-06T19:00:00+01:00",
+        "match": "Urawa Red Diamonds vs RB Omiya Ardija",
+        "competition": "Japan Emperor's Cup",
+        "kickoff": "10:00 WAT",
+        "kickoff_iso": "2026-10-07T10:00:00+01:00",
         "market": "Double Chance",
-        "pick": "Draw or Barnet (X2)",
-        "odds": "1.52"
+        "pick": "Urawa or Draw (1X)",
+        "odds": "1.21"
       },
       {
-        "match": "Saudi Arabia vs United Arab Emirates",
-        "competition": "Arabian Gulf Cup Final",
-        "kickoff": "19:00 WAT",
-        "kickoff_iso": "2026-10-06T19:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or UAE (X2)",
-        "odds": "1.51"
-      },
-      {
-        "match": "Moldova vs Slovakia",
-        "competition": "UEFA Nations League C",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
+        "match": "Kawasaki Frontale vs Tegevajaro Miyazaki",
+        "competition": "Japan Emperor's Cup",
+        "kickoff": "11:00 WAT",
+        "kickoff_iso": "2026-10-07T11:00:00+01:00",
         "market": "1X2",
-        "pick": "Slovakia Win",
-        "odds": "1.41"
+        "pick": "Kawasaki Win",
+        "odds": "1.62"
       },
       {
-        "match": "Scotland vs Slovenia",
-        "competition": "UEFA Nations League B",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
+        "match": "CS Constantine vs US Biskra",
+        "competition": "Algeria Ligue 1",
+        "kickoff": "18:00 WAT",
+        "kickoff_iso": "2026-10-07T18:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "Constantine or Draw (1X)",
+        "odds": "1.13"
+      },
+      {
+        "match": "Zamalek vs Zed FC",
+        "competition": "Egypt League Cup",
+        "kickoff": "18:00 WAT",
+        "kickoff_iso": "2026-10-07T18:00:00+01:00",
         "market": "Draw No Bet",
-        "pick": "Scotland (DNB)",
-        "odds": "1.33"
+        "pick": "Zamalek (DNB)",
+        "odds": "5.00"
       },
       {
-        "match": "Croatia vs Spain",
-        "competition": "UEFA Nations League A",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "Spain Win",
-        "odds": "1.31"
-      },
-      {
-        "match": "Belarus vs Finland",
-        "competition": "UEFA Nations League C",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or Finland (X2)",
-        "odds": "1.25"
-      },
-      {
-        "match": "Alianza Atletico vs Sport Boys",
-        "competition": "Peru Copa de la Liga (SF 2nd leg)",
-        "kickoff": "21:00 WAT",
-        "kickoff_iso": "2026-10-06T21:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or Alianza Atletico (1X)",
-        "odds": "1.23"
-      },
-      {
-        "match": "Cambridge United vs Northampton Town",
-        "competition": "England EFL Trophy",
-        "kickoff": "19:00 WAT",
-        "kickoff_iso": "2026-10-06T19:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or Cambridge United (1X)",
-        "odds": "1.23"
-      },
-      {
-        "match": "England vs Czechia",
-        "competition": "UEFA Nations League A",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "England Win",
-        "odds": "1.20"
-      },
-      {
-        "match": "Newport County vs Plymouth Argyle",
-        "competition": "England EFL Trophy",
-        "kickoff": "19:00 WAT",
-        "kickoff_iso": "2026-10-06T19:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or Plymouth Argyle (X2)",
-        "odds": "1.19"
-      },
-      {
-        "match": "Russia vs Nigeria",
-        "competition": "International Friendly",
-        "kickoff": "17:00 WAT",
-        "kickoff_iso": "2026-10-06T17:00:00+01:00",
-        "market": "Double Chance",
-        "pick": "Draw or Russia (1X)",
+        "match": "CR Belouizdad vs USM Khenchela",
+        "competition": "Algeria Ligue 1",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-10-07T20:00:00+01:00",
+        "market": "Draw No Bet",
+        "pick": "Belouizdad (DNB)",
         "odds": "1.16"
       },
       {
-        "match": "Raufoss IL vs IK Start",
-        "competition": "Norway NM Cupen",
-        "kickoff": "16:00 WAT",
-        "kickoff_iso": "2026-10-06T16:00:00+01:00",
+        "match": "Antofagasta vs Universidad de Chile",
+        "competition": "Chile Copa Chile",
+        "kickoff": "23:00 WAT",
+        "kickoff_iso": "2026-10-07T23:00:00+01:00",
         "market": "Double Chance",
-        "pick": "Draw or IK Start (X2)",
-        "odds": "1.15"
+        "pick": "Draw or Universidad de Chile (X2)",
+        "odds": "1.23"
       },
       {
-        "match": "Angola vs Malawi",
-        "competition": "AFCON 2027 Qualifier",
-        "kickoff": "20:00 WAT",
-        "kickoff_iso": "2026-10-06T20:00:00+01:00",
+        "match": "Clube do Remo vs Gremio",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
         "market": "Double Chance",
-        "pick": "Draw or Angola (1X)",
-        "odds": "1.08"
+        "pick": "Draw or Gremio (X2)",
+        "odds": "1.68"
       },
       {
-        "match": "Switzerland vs North Macedonia",
-        "competition": "UEFA Nations League B",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "Switzerland Win",
-        "odds": "1.09"
+        "match": "Internacional vs Corinthians",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Draw or Corinthians (X2)",
+        "odds": "1.60"
       },
       {
-        "match": "Albania vs San Marino",
-        "competition": "UEFA Nations League C",
-        "kickoff": "19:45 WAT",
-        "kickoff_iso": "2026-10-06T19:45:00+01:00",
-        "market": "1X2",
-        "pick": "Albania Win",
-        "odds": "1.03"
+        "match": "Red Bull Bragantino vs Mirassol",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
+        "market": "Draw No Bet",
+        "pick": "Bragantino (DNB)",
+        "odds": "1.37"
       }
     ]
   },
   "history": [
+    {
+      "date": "2026-10-06",
+      "notes": [
+        "AFC Wimbledon vs Barnet: Draw or Barnet (X2) won - 0-0, double chance covered the draw.",
+        "Saudi Arabia vs UAE: Draw or UAE (X2) lost - 2-0, Saudi Arabia won outright at home, the side the pick excluded.",
+        "Moldova vs Slovakia: Slovakia Win won - 0-4, research-backed straight win landed clean.",
+        "Scotland vs Slovenia: Scotland (DNB) lost - 1-2, Scotland lost outright with no draw to trigger a refund - normal DNB risk, not a flaw in the read.",
+        "Croatia vs Spain: Spain Win won - 1-2, research-backed straight win landed clean.",
+        "Belarus vs Finland: Draw or Finland (X2) lost - 1-0, Belarus won outright at home, the side the pick excluded.",
+        "Alianza Atletico vs Sport Boys: Draw or Alianza Atletico (1X) won - 3-0.",
+        "Cambridge United vs Northampton Town: Draw or Cambridge United (1X) won - 2-1.",
+        "Pattern: Oct 6 Double Chance picks went 3-for-5 (down from Oct 5's clean 5-for-5) - both misses (Saudi Arabia X2, Belarus X2) were cases where the home side the double chance excluded won outright rather than drawing or losing. One day's sample, not yet a confirmed pattern, but worth re-checking: double chance picks that exclude a live home side carry more risk than ones excluding an away side. Straight-win picks went 2-for-2 (Slovakia, Spain) when backed by genuine research conviction."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "combined_odds": "1.52",
+          "legs": [
+            {
+              "match": "AFC Wimbledon vs Barnet",
+              "pick": "Draw or Barnet (X2)",
+              "status": "won",
+              "score": "0-0"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "lost",
+          "combined_odds": "2.13",
+          "legs": [
+            {
+              "match": "Saudi Arabia vs United Arab Emirates",
+              "pick": "Draw or UAE (X2)",
+              "status": "lost",
+              "score": "2-0"
+            },
+            {
+              "match": "Moldova vs Slovakia",
+              "pick": "Slovakia Win",
+              "status": "won",
+              "score": "0-4"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "lost",
+          "combined_odds": "3.29",
+          "legs": [
+            {
+              "match": "Scotland vs Slovenia",
+              "pick": "Scotland (DNB)",
+              "status": "lost",
+              "score": "1-2"
+            },
+            {
+              "match": "Croatia vs Spain",
+              "pick": "Spain Win",
+              "status": "won",
+              "score": "1-2"
+            },
+            {
+              "match": "Belarus vs Finland",
+              "pick": "Draw or Finland (X2)",
+              "status": "lost",
+              "score": "1-0"
+            },
+            {
+              "match": "Alianza Atletico vs Sport Boys",
+              "pick": "Draw or Alianza Atletico (1X)",
+              "status": "won",
+              "score": "3-0"
+            },
+            {
+              "match": "Cambridge United vs Northampton Town",
+              "pick": "Draw or Cambridge United (1X)",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "notes": [
