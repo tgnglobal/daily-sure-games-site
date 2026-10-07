@@ -1,0 +1,598 @@
+{
+  "site": {
+    "brand": "Daily Sure Games",
+    "updated": "2026-10-07T08:39:32+01:00"
+  },
+  "today": {
+    "date": "2026-10-07",
+    "slips": [
+      {
+        "id": "rollover",
+        "name": "7-Day Rollover",
+        "combined_odds": "1.68",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Clube do Remo vs Gremio",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "Draw or Gremio (X2)",
+            "odds": "1.68"
+          }
+        ]
+      },
+      {
+        "id": "boost",
+        "name": "Boost Slip",
+        "combined_odds": "2.19",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Internacional vs Corinthians",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
+            "market": "Double Chance",
+            "pick": "Draw or Corinthians (X2)",
+            "odds": "1.60"
+          },
+          {
+            "match": "Red Bull Bragantino vs Mirassol",
+            "competition": "Brazil Brasileirao Serie A",
+            "kickoff": "23:30 WAT",
+            "kickoff_iso": "2026-10-07T23:30:00+01:00",
+            "market": "Draw No Bet",
+            "pick": "Bragantino (DNB)",
+            "odds": "1.37"
+          }
+        ]
+      },
+      {
+        "id": "bod",
+        "name": "Bet of the Day",
+        "combined_odds": "9.75",
+        "status": "pending",
+        "legs": [
+          {
+            "match": "Zamalek vs Zed FC",
+            "competition": "Egypt League Cup",
+            "kickoff": "18:00 WAT",
+            "kickoff_iso": "2026-10-07T18:00:00+01:00",
+            "market": "Draw No Bet",
+            "pick": "Zamalek (DNB)",
+            "odds": "5.00"
+          },
+          {
+            "match": "CR Belouizdad vs USM Khenchela",
+            "competition": "Algeria Ligue 1",
+            "kickoff": "20:00 WAT",
+            "kickoff_iso": "2026-10-07T20:00:00+01:00",
+            "market": "Draw No Bet",
+            "pick": "Belouizdad (DNB)",
+            "odds": "1.16"
+          },
+          {
+            "match": "CS Constantine vs US Biskra",
+            "competition": "Algeria Ligue 1",
+            "kickoff": "18:00 WAT",
+            "kickoff_iso": "2026-10-07T18:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "Constantine or Draw (1X)",
+            "odds": "1.13"
+          },
+          {
+            "match": "Antofagasta vs Universidad de Chile",
+            "competition": "Chile Copa Chile",
+            "kickoff": "23:00 WAT",
+            "kickoff_iso": "2026-10-07T23:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "Draw or Universidad de Chile (X2)",
+            "odds": "1.23"
+          },
+          {
+            "match": "Urawa Red Diamonds vs RB Omiya Ardija",
+            "competition": "Japan Emperor's Cup",
+            "kickoff": "10:00 WAT",
+            "kickoff_iso": "2026-10-07T10:00:00+01:00",
+            "market": "Double Chance",
+            "pick": "Urawa or Draw (1X)",
+            "odds": "1.21"
+          }
+        ]
+      }
+    ],
+    "all_picks": [
+      {
+        "match": "Urawa Red Diamonds vs RB Omiya Ardija",
+        "competition": "Japan Emperor's Cup",
+        "kickoff": "10:00 WAT",
+        "kickoff_iso": "2026-10-07T10:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "Urawa or Draw (1X)",
+        "odds": "1.21"
+      },
+      {
+        "match": "Kawasaki Frontale vs Tegevajaro Miyazaki",
+        "competition": "Japan Emperor's Cup",
+        "kickoff": "11:00 WAT",
+        "kickoff_iso": "2026-10-07T11:00:00+01:00",
+        "market": "1X2",
+        "pick": "Kawasaki Win",
+        "odds": "1.62"
+      },
+      {
+        "match": "CS Constantine vs US Biskra",
+        "competition": "Algeria Ligue 1",
+        "kickoff": "18:00 WAT",
+        "kickoff_iso": "2026-10-07T18:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "Constantine or Draw (1X)",
+        "odds": "1.13"
+      },
+      {
+        "match": "Zamalek vs Zed FC",
+        "competition": "Egypt League Cup",
+        "kickoff": "18:00 WAT",
+        "kickoff_iso": "2026-10-07T18:00:00+01:00",
+        "market": "Draw No Bet",
+        "pick": "Zamalek (DNB)",
+        "odds": "5.00"
+      },
+      {
+        "match": "CR Belouizdad vs USM Khenchela",
+        "competition": "Algeria Ligue 1",
+        "kickoff": "20:00 WAT",
+        "kickoff_iso": "2026-10-07T20:00:00+01:00",
+        "market": "Draw No Bet",
+        "pick": "Belouizdad (DNB)",
+        "odds": "1.16"
+      },
+      {
+        "match": "Antofagasta vs Universidad de Chile",
+        "competition": "Chile Copa Chile",
+        "kickoff": "23:00 WAT",
+        "kickoff_iso": "2026-10-07T23:00:00+01:00",
+        "market": "Double Chance",
+        "pick": "Draw or Universidad de Chile (X2)",
+        "odds": "1.23"
+      },
+      {
+        "match": "Clube do Remo vs Gremio",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Draw or Gremio (X2)",
+        "odds": "1.68"
+      },
+      {
+        "match": "Internacional vs Corinthians",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
+        "market": "Double Chance",
+        "pick": "Draw or Corinthians (X2)",
+        "odds": "1.60"
+      },
+      {
+        "match": "Red Bull Bragantino vs Mirassol",
+        "competition": "Brazil Brasileirao Serie A",
+        "kickoff": "23:30 WAT",
+        "kickoff_iso": "2026-10-07T23:30:00+01:00",
+        "market": "Draw No Bet",
+        "pick": "Bragantino (DNB)",
+        "odds": "1.37"
+      }
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-10-06",
+      "notes": [
+        "AFC Wimbledon vs Barnet: Draw or Barnet (X2) won - 0-0, double chance covered the draw.",
+        "Saudi Arabia vs UAE: Draw or UAE (X2) lost - 2-0, Saudi Arabia won outright at home, the side the pick excluded.",
+        "Moldova vs Slovakia: Slovakia Win won - 0-4, research-backed straight win landed clean.",
+        "Scotland vs Slovenia: Scotland (DNB) lost - 1-2, Scotland lost outright with no draw to trigger a refund - normal DNB risk, not a flaw in the read.",
+        "Croatia vs Spain: Spain Win won - 1-2, research-backed straight win landed clean.",
+        "Belarus vs Finland: Draw or Finland (X2) lost - 1-0, Belarus won outright at home, the side the pick excluded.",
+        "Alianza Atletico vs Sport Boys: Draw or Alianza Atletico (1X) won - 3-0.",
+        "Cambridge United vs Northampton Town: Draw or Cambridge United (1X) won - 2-1.",
+        "Pattern: Oct 6 Double Chance picks went 3-for-5 (down from Oct 5's clean 5-for-5) - both misses (Saudi Arabia X2, Belarus X2) were cases where the home side the double chance excluded won outright rather than drawing or losing. One day's sample, not yet a confirmed pattern, but worth re-checking: double chance picks that exclude a live home side carry more risk than ones excluding an away side. Straight-win picks went 2-for-2 (Slovakia, Spain) when backed by genuine research conviction."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "combined_odds": "1.52",
+          "legs": [
+            {
+              "match": "AFC Wimbledon vs Barnet",
+              "pick": "Draw or Barnet (X2)",
+              "status": "won",
+              "score": "0-0"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "lost",
+          "combined_odds": "2.13",
+          "legs": [
+            {
+              "match": "Saudi Arabia vs United Arab Emirates",
+              "pick": "Draw or UAE (X2)",
+              "status": "lost",
+              "score": "2-0"
+            },
+            {
+              "match": "Moldova vs Slovakia",
+              "pick": "Slovakia Win",
+              "status": "won",
+              "score": "0-4"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "lost",
+          "combined_odds": "3.29",
+          "legs": [
+            {
+              "match": "Scotland vs Slovenia",
+              "pick": "Scotland (DNB)",
+              "status": "lost",
+              "score": "1-2"
+            },
+            {
+              "match": "Croatia vs Spain",
+              "pick": "Spain Win",
+              "status": "won",
+              "score": "1-2"
+            },
+            {
+              "match": "Belarus vs Finland",
+              "pick": "Draw or Finland (X2)",
+              "status": "lost",
+              "score": "1-0"
+            },
+            {
+              "match": "Alianza Atletico vs Sport Boys",
+              "pick": "Draw or Alianza Atletico (1X)",
+              "status": "won",
+              "score": "3-0"
+            },
+            {
+              "match": "Cambridge United vs Northampton Town",
+              "pick": "Draw or Cambridge United (1X)",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "notes": [
+        "Montenegro Win (Rollover) lost - Montenegro held 0-0 at home by Armenia; straight-win upgrade from DNB made purely to clear the floor didn't pay off.",
+        "Italy Win (Boost) won - Italy beat Turkiye 3-1 as research suggested.",
+        "Liechtenstein X2 (Boost) won - 0-0 draw, double chance covered it.",
+        "Romania Over 1.5 (Bet of the Day) lost - match stayed tight at 0-1, only 1 goal scored.",
+        "Cyprus DNB (Bet of the Day) won - Cyprus won 2-1 as favoured.",
+        "Deportivo Riestra DNB (Bet of the Day) voided - 1-1 draw, DNB refunded rather than lost.",
+        "Moss FK X2 (Bet of the Day) won - Kongsvinger won 2-0 away, double chance covered it.",
+        "CA Banfield X2 (Bet of the Day) won - 1-1 draw, double chance covered it.",
+        "France 1X (Power 5) won - France routed Belgium 4-1.",
+        "Northern Ireland 1X (Power 5) won - 0-0 draw, double chance covered it.",
+        "Ukraine Under 2.5 (Power 5) lost - match had 3 goals (1-2), goal read was too conservative in the wrong direction.",
+        "Estudiantes Win (Power 5) won - dominant 3-0 victory.",
+        "Bogota FC vs Envigado X2 (Power 5) unresolved - final score could not be confirmed despite extensive searching.",
+        "Velez Win (Moonshot) lost - Velez drew 2-2; second of three floor-clearing DNB-to-Win upgrades to end in a draw.",
+        "Sporting San Miguelito Win (Moonshot) won - won 3-1 as favoured.",
+        "Waterhouse Win (Moonshot) won - thrashed Chapelton Maroons 6-0.",
+        "Barbados Win (Moonshot) won - won 1-2 away as favoured.",
+        "Pattern: all 3 DNB-to-Win upgrades made purely to clear slip floors went 1-for-3 (only Estudiantes landed); both failures ended in draws - exactly what Draw No Bet exists to protect against. Double Chance picks went a clean 5-for-5."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "lost",
+          "combined_odds": "1.54",
+          "legs": [
+            {
+              "match": "Montenegro vs Armenia",
+              "pick": "Montenegro Win",
+              "status": "lost",
+              "score": "0-0"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "won",
+          "combined_odds": "2.12",
+          "legs": [
+            {
+              "match": "Italy vs Turkiye",
+              "pick": "Italy Win",
+              "status": "won",
+              "score": "3-1"
+            },
+            {
+              "match": "Liechtenstein vs Gibraltar",
+              "pick": "Draw or Gibraltar (X2)",
+              "status": "won",
+              "score": "0-0"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "lost",
+          "combined_odds": "3.04",
+          "legs": [
+            {
+              "match": "Romania vs Sweden",
+              "pick": "Over 1.5 Goals",
+              "status": "lost",
+              "score": "0-1"
+            },
+            {
+              "match": "Cyprus vs Latvia",
+              "pick": "Cyprus (DNB)",
+              "status": "won",
+              "score": "2-1"
+            },
+            {
+              "match": "Deportivo Riestra vs Central Cordoba",
+              "pick": "Deportivo Riestra (DNB)",
+              "status": "void",
+              "score": "1-1"
+            },
+            {
+              "match": "Moss FK vs Kongsvinger IL",
+              "pick": "Draw or Kongsvinger (X2)",
+              "status": "won",
+              "score": "0-2"
+            },
+            {
+              "match": "CA Banfield vs Rosario Central",
+              "pick": "Draw or Rosario Central (X2)",
+              "status": "won",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Power 5",
+          "status": "lost",
+          "combined_odds": "6.04",
+          "legs": [
+            {
+              "match": "France vs Belgium",
+              "pick": "France or Draw (1X)",
+              "status": "won",
+              "score": "4-1"
+            },
+            {
+              "match": "Northern Ireland vs Georgia",
+              "pick": "Northern Ireland or Draw (1X)",
+              "status": "won",
+              "score": "0-0"
+            },
+            {
+              "match": "Ukraine vs Hungary",
+              "pick": "Under 2.5 Goals",
+              "status": "lost",
+              "score": "1-2"
+            },
+            {
+              "match": "Estudiantes de La Plata vs Gimnasia Mendoza",
+              "pick": "Estudiantes Win",
+              "status": "won",
+              "score": "3-0"
+            },
+            {
+              "match": "Bogota FC vs Envigado FC",
+              "pick": "Draw or Envigado (X2)",
+              "status": "unresolved",
+              "score": "TBC"
+            }
+          ]
+        },
+        {
+          "name": "Moonshot",
+          "status": "lost",
+          "combined_odds": "11.69",
+          "legs": [
+            {
+              "match": "Velez Sarsfield vs Platense",
+              "pick": "Velez Win",
+              "status": "lost",
+              "score": "2-2"
+            },
+            {
+              "match": "AF Sporting San Miguelito vs Cocle FC",
+              "pick": "Sporting San Miguelito Win",
+              "status": "won",
+              "score": "3-1"
+            },
+            {
+              "match": "Chapelton Maroons FC vs Waterhouse FC",
+              "pick": "Waterhouse Win",
+              "status": "won",
+              "score": "0-6"
+            },
+            {
+              "match": "Bermuda vs Barbados",
+              "pick": "Barbados Win",
+              "status": "won",
+              "score": "1-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "notes": [
+        "7-Day Rollover (WON) — BTTS Yes on Cruzeiro vs Atletico Mineiro: both traded second-half goals in the Copa do Brasil classico mineiro (1-1); the read that this tight derby would still produce goals at both ends held up.",
+        "Boost Slip (WON) — Independiente del Valle Win: their home form and 1-0 aggregate cushion from the first leg proved decisive, closing out Deportes Tolima 3-1 to reach the Libertadores quarter-finals. Monterrey BTTS Yes: both sides' attacking quality showed in a 2-1 Monterrey win over Chicago Fire in the Leagues Cup, with Chicago's response goal confirming the read.",
+        "Market watch: BTTS Yes is now 4-for-4 across the two logged days so far (two legs on Aug 23, two on Aug 25). Still under the 5-use sample needed before actively favoring it per the standing guardrail, but trending strongly — worth a closer look once it clears that threshold.",
+        "Pattern watch: no repeat of the Aug 23 'favorite assumed to win/score more than a genuinely tight fixture allowed' pattern on Aug 25 — all three matches produced clear-cut winners or a high-scoring draw, so no corrective action needed today.",
+        "Note: Aug 24 has no recorded results — the site's daily run was not triggered that day, so that day is a gap in the track record rather than a loss or a win.",
+        "Note: no daily run was triggered between Aug 27 and Sep 19 — the Aug 26 slips were never resolved and this is a gap in the track record, not a loss or a win. Sep 20 resumes the log."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "combined_odds": "1.94",
+          "legs": [
+            {
+              "match": "Cruzeiro vs Atletico Mineiro",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "won",
+          "combined_odds": "2.36",
+          "legs": [
+            {
+              "match": "Independiente del Valle vs Deportes Tolima",
+              "pick": "Independiente del Valle Win",
+              "status": "won",
+              "score": "3-1"
+            },
+            {
+              "match": "Monterrey vs Chicago Fire",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "notes": [
+        "7-Day Rollover (WON) — Atlanta United Win: beat Sporting KC 2-1, extending a 3-match win streak; home-form read held up, no correction needed.",
+        "Boost Slip (LOST) — Pachuca Win: San Luis held a disciplined low block at home, finished 1-1; San Luis's home resilience in a historically tight fixture (19 previous meetings) was underweighted vs Pachuca's away reputation.",
+        "Bet of the Day (LOST) — Sao Paulo Win: lost 0-1 at Chapecoense; their winless run away under Dorival Junior was underweighted against reputation. BTTS No (Coritiba-Corinthians): Corinthians scored late in a 2-1 loss, so BTTS actually landed Yes — their late set-piece/header threat was underweighted.",
+        "Power 5 (LOST) — Santos Win: only 1-1 vs Mirassol despite a rest advantage; Mirassol's away resilience was underweighted. Corinthians Win: lost 2-1 to Coritiba (same late-goal threat noted above). Over 2.5 (San Luis-Pachuca): finished 1-1 — match tightened defensively rather than staying open.",
+        "Moonshot (LOST) — 3 of 4 legs won (Atlanta BTTS Yes, San Luis-Pachuca BTTS Yes, Racing-Boca Draw); broken by Over 2.5 on Santos-Mirassol (finished 1-1).",
+        "Pattern watch: 3 of 6 matches finished level (San Luis-Pachuca, Santos-Mirassol, Racing-Boca all 1-1) — a notably high draw/low-scoring rate, and two legs assumed a mid-table home favorite would win/score more comfortably than they did. First logged day — recorded as an observation, not yet acted on per the standing guardrail. Re-check over the next ~2 weeks for a repeat of 'favorite assumed to win/score more than expected in a genuinely tight fixture' before treating it as a real pattern."
+      ],
+      "slips": [
+        {
+          "name": "7-Day Rollover",
+          "status": "won",
+          "combined_odds": "1.70",
+          "legs": [
+            {
+              "match": "Atlanta United vs Sporting Kansas City",
+              "pick": "Atlanta United Win",
+              "status": "won",
+              "score": "2-1"
+            }
+          ]
+        },
+        {
+          "name": "Boost Slip",
+          "status": "lost",
+          "combined_odds": "2.10",
+          "legs": [
+            {
+              "match": "Atletico San Luis vs Pachuca",
+              "pick": "Pachuca Win",
+              "status": "lost",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Bet of the Day",
+          "status": "lost",
+          "combined_odds": "4.16",
+          "legs": [
+            {
+              "match": "Chapecoense vs Sao Paulo",
+              "pick": "Sao Paulo Win",
+              "status": "lost",
+              "score": "1-0"
+            },
+            {
+              "match": "Coritiba vs Corinthians",
+              "pick": "BTTS - No",
+              "status": "lost",
+              "score": "2-1"
+            }
+          ]
+        },
+        {
+          "name": "Power 5",
+          "status": "lost",
+          "combined_odds": "8.51",
+          "legs": [
+            {
+              "match": "Santos vs Mirassol",
+              "pick": "Santos Win",
+              "status": "lost",
+              "score": "1-1"
+            },
+            {
+              "match": "Coritiba vs Corinthians",
+              "pick": "Corinthians Win",
+              "status": "lost",
+              "score": "2-1"
+            },
+            {
+              "match": "Atletico San Luis vs Pachuca",
+              "pick": "Over 2.5 Goals",
+              "status": "lost",
+              "score": "1-1"
+            }
+          ]
+        },
+        {
+          "name": "Moonshot",
+          "status": "lost",
+          "combined_odds": "15.10",
+          "legs": [
+            {
+              "match": "Atlanta United vs Sporting Kansas City",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "2-1"
+            },
+            {
+              "match": "Atletico San Luis vs Pachuca",
+              "pick": "BTTS - Yes",
+              "status": "won",
+              "score": "1-1"
+            },
+            {
+              "match": "Santos vs Mirassol",
+              "pick": "Over 2.5 Goals",
+              "status": "lost",
+              "score": "1-1"
+            },
+            {
+              "match": "Racing Club vs Boca Juniors",
+              "pick": "Draw",
+              "status": "won",
+              "score": "1-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
